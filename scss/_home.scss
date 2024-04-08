@@ -5,14 +5,13 @@
     position: relative;
 
     .circleBg {
-        // width: 100%;
-        // height: 100%;
-        // position: absolute;
-        // top: 500px;
-        // left: 50%;
-        // transform: translateX(-50%);
-        // z-index: 1;
-        // overflow-x: hidden;
+        width: 100%;
+        height: 954px;
+        position: absolute;
+        top: 563px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
     }
 
     //輪播
@@ -21,40 +20,6 @@
         height: auto;
         position: relative;
 
-        .frontPicL {
-            width: 305px;
-            height: 484px;
-            position: absolute;
-            top: 50%;
-            left: 310px;
-            transform: translateY(-50%);
-            z-index: 2;
-            animation: frontPic 1.5s linear 1s infinite;
-        }
-        .frontPicR {
-            width: 281px;
-            height: 484px;
-            position: absolute;
-            top: 50%;
-            right: 210px;
-            transform: translateY(-50%);
-            z-index: 2;
-            animation: frontPic 1.5s linear infinite;
-        }
-        @keyframes frontPic {
-            0% {
-                opacity: 0;
-            }
-            25% {
-                opacity: 0.8;
-            }
-            50% {
-                opacity: 0.5;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
         .swiper {
             width: 100%;
             height: auto;

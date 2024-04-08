@@ -2,6 +2,7 @@
 header {
     width: 100%;
     height: auto;
+    min-width: 1400px;
     // background: $headerBg_2;
     box-shadow: 0 1px 10px 1px #00000024;
     position: fixed;
@@ -14,23 +15,25 @@ header {
         height: 80px;
         background: $headerBg_2;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
         position: relative;
+        margin: 0 auto;
+        padding: 0 70px;
 
-        
+        .logo {
+            width: 137px;
+            height: 40px;
+            cursor: pointer;
+        }
+
         //登入
         .login {
-            width: 1920px;
+            width: auto;
             height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            position: absolute;
-
-            .logo {
-                width: 137px;
-                height: 40px;
-            }
            
             form {
                 width: auto;
@@ -210,7 +213,7 @@ header {
         }
         //登入後
         .afterLogin {
-            width: 1400px;
+            width: auto;
             height: 100%;
             display: flex;
             align-items: center;
@@ -424,7 +427,7 @@ header {
     }
     //nav
     .navGroup {
-        width: 1920px;
+        width: 100%;
         height: 52px;
         display: flex;
         align-items: center;
@@ -433,7 +436,7 @@ header {
         background: $headerBg_4;
 
         ul {
-            width: 1400px;
+            width: 1523px;
             height: auto;
             display: flex;
 
