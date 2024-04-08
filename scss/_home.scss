@@ -6,12 +6,14 @@
 
     .circleBg {
         width: 100%;
-        height: 954px;
+        // height: 954px;
+        height: 154px;
         position: absolute;
-        top: 563px;
+        // top: 563px;
+        top: 590px;
         left: 50%;
         transform: translateX(-50%);
-        z-index: 1;
+        z-index: 3;
     }
 
     //輪播
@@ -19,6 +21,7 @@
         width: 100%;
         height: auto;
         position: relative;
+        z-index: 3;
 
         .swiper {
             width: 100%;
@@ -34,27 +37,28 @@
                 }
             }
             .swiper-pagination {
-                bottom: 40px;
+                bottom: 120px;
+                z-index: 4;
 
                 .swiper-pagination-bullet {
                     background: $swiperBullet_2;
                     width: 15px;
                     height: 15px;
-                    margin: 0 12px;
+                    margin: 0 7px;
                     opacity: 1;
                 }
                 .swiper-pagination-bullet-active {
                     background: $swiperBullet_1;
                     width: 15px;
                     height: 15px;
-                    margin: 0 12px;
+                    margin: 0 7px;
                 }
             }
         }
     }
     //marquee
     .marqueeGroup {
-        width: 1400px;
+        width: 935px;
         height: 40px;
         @include marquee;
     }
@@ -63,6 +67,9 @@
         width: 1400px;
         height: auto;
         margin: 45px auto;
+        position: relative;
+        z-index: 5;
+        display: flex;
 
         ul {
             width: 100%;
@@ -72,6 +79,14 @@
             gap: 80px 0;
             justify-content: center;
             align-items: center;
+
+            &.leftGame {
+                grid-template-columns: repeat(1,1fr);
+            }
+
+            &.rightGame {
+                grid-template-columns: repeat(2,1fr);
+            }
 
             li {
                 width: 100%;
@@ -179,39 +194,6 @@
                             position: absolute;
                             transform-origin: bottom;
                             
-
-                            &.aalive {
-                                bottom: 5px;
-                                left: 70px;
-                            }
-                            &.sslive {
-                                bottom: 5px;
-                                left: 90px;
-                            }
-                            &.bbbslot {
-                                bottom: 5px;
-                                left: 115px;
-                            }
-                            &.cccslot {
-                                bottom: 5px;
-                                left: 35px;
-                            }
-                            &.abcboard {
-                                bottom: -55px;
-                                left: 50px;
-                            }
-                            &.abcticket {
-                                bottom: -35px;
-                                left: 45px;
-                            }
-                            &.abcsport {
-                                bottom: 5px;
-                                left: 45px;
-                            }
-                            &.ttfish {
-                                bottom: 5px;
-                                left: 32px;
-                            }
                         }
                         @keyframes front {
                             0% {
@@ -245,7 +227,7 @@
                     }
                 }
                 p {
-                    font-size: 30px;
+                    font-size: 18px;
                     font-weight: bold;
                     color: $gameTitle_1;
                     margin-right: 50px;

@@ -129,17 +129,12 @@ header .top .logo {
 }
 
 .home .circleBg {
-  background: url("../img/circleBg.png") no-repeat center;
+  background: url("../img/circleBg2.png") no-repeat center;
   background-size: contain;
 }
 
 .home .marqueeGroup .decorationR {
   background: url("../img/decorationR.png") no-repeat center;
-  background-size: contain;
-}
-
-.home .marqueeGroup i {
-  background: url("../img/marqueeIc.png") no-repeat center;
   background-size: contain;
 }
 
@@ -297,7 +292,6 @@ html body header .top .login form label input::placeholder {
 html body header .top .login form .buttonGroup {
   width: 100%;
   height: auto;
-  margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,8 +402,8 @@ html body header .top .login .language {
   padding-left: 0px;
 }
 html body header .top .login .language select {
-  width: 80px;
-  height: 25px;
+  width: 150px;
+  height: 40px;
   background: transparent;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -418,6 +412,9 @@ html body header .top .login .language select {
   z-index: 2;
   color: #daaf6d;
   font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid #daaf6d;
+  padding-left: 15px;
 }
 html body header .top .login .language select option {
   width: 100%;
@@ -432,25 +429,11 @@ html body header .top .login .language i {
   border-width: 0 2px 2px 0;
   border-color: transparent #daaf6d #daaf6d transparent;
   position: absolute;
-  top: 5px;
+  top: 12px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  right: 0;
+  right: 10px;
   z-index: 2;
-}
-html body header .top .login .language::before {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 40px;
-  top: 50%;
-  left: -8px;
-  z-index: 1;
-  background: transparent;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  border: 1px solid #daaf6d;
-  border-radius: 20px;
 }
 html body header .top .afterLogin {
   width: auto;
@@ -685,18 +668,51 @@ html body header .navGroup {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.4509803922);
 }
 html body header .navGroup ul {
-  width: 1523px;
-  height: auto;
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-html body header .navGroup ul li {
+html body header .navGroup ul .empty {
   width: 100%;
-  height: auto;
+  height: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.368627451);
+}
+html body header .navGroup ul .empty:first-child::before {
+  right: -30px;
+}
+html body header .navGroup ul .empty:last-child::before {
+  -webkit-transform: scale(-1);
+          transform: scale(-1);
+  left: -30px;
+}
+html body header .navGroup ul .empty::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 52px 30px 0 0;
+  border-color: rgba(0, 0, 0, 0.368627451) transparent transparent transparent;
+}
+html body header .navGroup ul ol {
+  width: 1520px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0 15px;
+}
+html body header .navGroup ul ol li {
+  width: 100%;
+  height: 100%;
   -webkit-transform: skewX(-30deg);
           transform: skewX(-30deg);
   display: -webkit-box;
@@ -708,9 +724,14 @@ html body header .navGroup ul li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: 3px;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.368627451);
 }
-html body header .navGroup ul li:hover, html body header .navGroup ul li:active, html body header .navGroup ul li.active {
+html body header .navGroup ul ol li:last-child {
+  margin: 0 3px;
+}
+html body header .navGroup ul ol li:hover, html body header .navGroup ul ol li:active, html body header .navGroup ul ol li.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -728,10 +749,10 @@ html body header .navGroup ul li:hover, html body header .navGroup ul li:active,
           box-shadow: 0px 0px 5px #000000;
   position: relative;
 }
-html body header .navGroup ul li:hover p, html body header .navGroup ul li:active p, html body header .navGroup ul li.active p {
+html body header .navGroup ul ol li:hover p, html body header .navGroup ul ol li:active p, html body header .navGroup ul ol li.active p {
   color: #ffffff;
 }
-html body header .navGroup ul li:hover::after, html body header .navGroup ul li:active::after, html body header .navGroup ul li.active::after {
+html body header .navGroup ul ol li:hover::after, html body header .navGroup ul ol li:active::after, html body header .navGroup ul ol li.active::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -742,7 +763,7 @@ html body header .navGroup ul li:hover::after, html body header .navGroup ul li:
   height: 5px;
   background: #e6c497;
 }
-html body header .navGroup ul li p {
+html body header .navGroup ul ol li p {
   font-size: 20px;
   font-weight: bold;
   color: #ffffff;
@@ -835,18 +856,19 @@ html body .home {
 }
 html body .home .circleBg {
   width: 100%;
-  height: 954px;
+  height: 154px;
   position: absolute;
-  top: 563px;
+  top: 590px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  z-index: 1;
+  z-index: 3;
 }
 html body .home .swiperGroup {
   width: 100%;
   height: auto;
   position: relative;
+  z-index: 3;
 }
 html body .home .swiperGroup .swiper {
   width: 100%;
@@ -856,25 +878,31 @@ html body .home .swiperGroup .swiper .swiper-wrapper .swiper-slide img {
   margin: 0 auto;
 }
 html body .home .swiperGroup .swiper .swiper-pagination {
-  bottom: 40px;
+  bottom: 120px;
+  z-index: 4;
 }
 html body .home .swiperGroup .swiper .swiper-pagination .swiper-pagination-bullet {
   background: #ffffff;
   width: 15px;
   height: 15px;
-  margin: 0 12px;
+  margin: 0 7px;
   opacity: 1;
 }
 html body .home .swiperGroup .swiper .swiper-pagination .swiper-pagination-bullet-active {
-  background: #e6c497;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
   width: 15px;
   height: 15px;
-  margin: 0 12px;
+  margin: 0 7px;
 }
 html body .home .marqueeGroup {
-  width: 1400px;
+  width: 935px;
   height: 40px;
-  background: rgba(255, 255, 255, 0);
+  background: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #daaf6d;
+  border-radius: 20px;
   margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -884,38 +912,27 @@ html body .home .marqueeGroup {
           align-items: center;
   position: relative;
   overflow: hidden;
+  z-index: 5;
 }
-html body .home .marqueeGroup::before {
-  content: "";
-  width: 1300px;
-  height: 50px;
-  background: transparent;
-  border-width: 40px 25px 40px 25px;
-  border-style: solid;
-  border-color: #dddddd transparent transparent transparent;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+html body .home .marqueeGroup .marqueeTitle {
+  width: 146px;
+  height: 40px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-html body .home .marqueeGroup .trapezoid {
-  position: absolute;
-  top: 0;
-  left: 38px;
-  height: 100%;
-  width: 50px;
-  background: #dddddd;
-  -webkit-transform: skewX(32deg);
-          transform: skewX(32deg);
-  z-index: 1;
-}
-html body .home .marqueeGroup i {
-  width: 25px;
-  height: 20px;
-  position: absolute;
-  left: 50px;
-  z-index: 2;
+html body .home .marqueeGroup .marqueeTitle p {
+  font-size: 18px;
+  color: #ffffff;
 }
 html body .home .marqueeGroup .marquee {
   width: 100%;
@@ -924,9 +941,9 @@ html body .home .marqueeGroup .marquee {
 }
 html body .home .marqueeGroup .marquee p {
   display: inline-block;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
-  color: #7d0022;
+  color: #a98f73;
   padding-left: 100%;
   white-space: nowrap;
   -webkit-animation: marquee 10s linear infinite;
@@ -956,6 +973,11 @@ html body .home .gameGroup {
   width: 1400px;
   height: auto;
   margin: 45px auto;
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 html body .home .gameGroup ul {
   width: 100%;
@@ -971,6 +993,14 @@ html body .home .gameGroup ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+html body .home .gameGroup ul.leftGame {
+  -ms-grid-columns: (1fr)[1];
+  grid-template-columns: repeat(1, 1fr);
+}
+html body .home .gameGroup ul.rightGame {
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
 }
 html body .home .gameGroup ul li {
   width: 100%;
@@ -1174,38 +1204,6 @@ html body .home .gameGroup ul li .picGroup .frontPic img {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-html body .home .gameGroup ul li .picGroup .frontPic img.aalive {
-  bottom: 5px;
-  left: 70px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.sslive {
-  bottom: 5px;
-  left: 90px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.bbbslot {
-  bottom: 5px;
-  left: 115px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.cccslot {
-  bottom: 5px;
-  left: 35px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.abcboard {
-  bottom: -55px;
-  left: 50px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.abcticket {
-  bottom: -35px;
-  left: 45px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.abcsport {
-  bottom: 5px;
-  left: 45px;
-}
-html body .home .gameGroup ul li .picGroup .frontPic img.ttfish {
-  bottom: 5px;
-  left: 32px;
-}
 @-webkit-keyframes front {
   0% {
     -webkit-transform: scale(1);
@@ -1279,9 +1277,9 @@ html body .home .gameGroup ul li .picGroup .frontPic img.ttfish {
   }
 }
 html body .home .gameGroup ul li p {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
-  color: #f8dfad;
+  color: #b8151a;
   margin-right: 50px;
   margin-top: 10px;
 }
@@ -1290,6 +1288,8 @@ html body footer {
   height: 215px;
   background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
   background: linear-gradient(to bottom, #dddddd 0%, #ffffff 100%);
+  position: relative;
+  z-index: 3;
 }
 html body footer .footerGroup {
   width: 100%;
@@ -2742,7 +2742,11 @@ html body .innerPage {
 html body .innerPage .marqueeGroup {
   width: 1400px;
   height: 40px;
-  background: rgba(255, 255, 255, 0);
+  background: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #daaf6d;
+  border-radius: 20px;
   margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2752,38 +2756,27 @@ html body .innerPage .marqueeGroup {
           align-items: center;
   position: relative;
   overflow: hidden;
+  z-index: 5;
 }
-html body .innerPage .marqueeGroup::before {
-  content: "";
-  width: 1300px;
-  height: 50px;
-  background: transparent;
-  border-width: 40px 25px 40px 25px;
-  border-style: solid;
-  border-color: #dddddd transparent transparent transparent;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+html body .innerPage .marqueeGroup .marqueeTitle {
+  width: 146px;
+  height: 40px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-html body .innerPage .marqueeGroup .trapezoid {
-  position: absolute;
-  top: 0;
-  left: 38px;
-  height: 100%;
-  width: 50px;
-  background: #dddddd;
-  -webkit-transform: skewX(32deg);
-          transform: skewX(32deg);
-  z-index: 1;
-}
-html body .innerPage .marqueeGroup i {
-  width: 25px;
-  height: 20px;
-  position: absolute;
-  left: 50px;
-  z-index: 2;
+html body .innerPage .marqueeGroup .marqueeTitle p {
+  font-size: 18px;
+  color: #ffffff;
 }
 html body .innerPage .marqueeGroup .marquee {
   width: 100%;
@@ -2792,9 +2785,9 @@ html body .innerPage .marqueeGroup .marquee {
 }
 html body .innerPage .marqueeGroup .marquee p {
   display: inline-block;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
-  color: #7d0022;
+  color: #a98f73;
   padding-left: 100%;
   white-space: nowrap;
   -webkit-animation: marquee 10s linear infinite;

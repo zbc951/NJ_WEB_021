@@ -48,14 +48,18 @@
         </div>
         <div class="navGroup">
             <ul>
-                <li><p>人気ゲーム</p></li>
-                <li class="sport"><p>スポーツ</p></li>
-                <li class="live"><p>ライブ</p></li>
-                <li class="slot"><p>スロット</p></li>
-                <li class="fish"><p>釣りゲーム</p></li>
-                <li class="board"><p>テーブルゲーム</p></li>
-                <li><p>プロモーション</p></li>
-                <li><p>VIPメンバー</p></li>
+                <li class="empty"></li>
+                <ol>
+                    <li><p>人気ゲーム</p></li>
+                    <li class="sport"><p>スポーツ</p></li>
+                    <li class="live"><p>ライブ</p></li>
+                    <li class="slot"><p>スロット</p></li>
+                    <li class="fish"><p>釣りゲーム</p></li>
+                    <li class="board"><p>テーブルゲーム</p></li>
+                    <li><p>プロモーション</p></li>
+                    <li><p>VIPメンバー</p></li>
+                </ol>
+                <li class="empty"></li>
             </ul>
         </div>
         <!-- 下拉選單 -->
@@ -160,29 +164,62 @@
                     <div class="swiper-slide">
                         <img src="./img/banner.png" alt="">
                     </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner.png" alt="">
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </section>
         </div>
-        <div class="circleBg">
         <!-- 跑馬燈 -->
         <div class="marqueeGroup">
             <div class="trapezoid"></div>
-            <i></i>
+            <div class="marqueeTitle">
+                <p>最新ニュース</p>
+            </div>
             <div class="marquee">
-                <p>我是跑馬燈我是跑馬燈我是跑馬燈我是跑馬燈</p>
+                <p>プロモーション~ライブカジノリベートボーナス</p>
             </div>
         </div>
         <!-- 遊戲選單 -->
         <div class="gameGroup">
-            <ul>
+            <ul class="leftGame">
+                <li>
+                    <div class="picGroup">
+                        <div class="frontPic">
+                            <img src="./img/PGOPic.png" alt="" class="aalive">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="picGroup">
+                        <div class="frontPic">
+                            <img src="./img/YGGPic.png" alt="" class="sslive">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="picGroup">
+                        <div class="frontPic">
+                            <img src="./img/NMCPic.png" alt="" class="sslive">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="rightGame">
                 <li>
                     <div class="picGroup">
                         <div class="frontPic">
                             <img src="./img/aaPic.png" alt="" class="aalive">
                         </div>
                     </div>
-                    <p>AA真人娛樂</p>
+                    <p>フェアリーガーデン</p>
                 </li>
                 <li>
                     <div class="picGroup">
@@ -190,7 +227,7 @@
                             <img src="./img/ssPic.png" alt="" class="sslive">
                         </div>
                     </div>
-                    <p>SS真人娛樂</p>
+                    <p>プラネットアドベンチャー</p>
                 </li>
                 <li>
                     <div class="picGroup ">
@@ -198,7 +235,7 @@
                             <img src="./img/bbbPic.png" alt="" class="bbbslot">
                         </div>
                     </div>
-                    <p>BBB老虎機</p>
+                    <p>赤ずきん-フードデリバリー大作戰</p>
                 </li>
                 <li>
                     <div class="picGroup">
@@ -206,7 +243,7 @@
                             <img src="./img/cccPic.png" alt="" class="cccslot">
                         </div>
                     </div>
-                    <p>CCC老虎機</p>
+                    <p>魔法の豆</p>
                 </li>
                 <li>
                     <div class="picGroup">
@@ -214,7 +251,7 @@
                             <img src="./img/abcBoardPic.png" alt="" class="abcboard">
                         </div>
                     </div>
-                    <p>ABC棋牌遊戲</p>
+                    <p>荒野の大西部</p>
                 </li>
                 <li>
                     <div class="picGroup">
@@ -222,28 +259,11 @@
                             <img src="./img/abcTicketPic.png" alt="" class="abcticket">
                         </div>
                     </div>
-                    <p>ABC彩票</p>
-                </li>
-                <li>
-                    <div class="picGroup">
-                        <div class="frontPic">
-                            <img src="./img/abcSportPic.png" alt="" class="abcsport">
-                        </div>
-                    </div>
-                    <p>ABC體育</p>
-                </li>
-                <li>
-                    <div class="picGroup">
-                        <div class="frontPic">
-                            <img src="./img/ttPic.png" alt="" class="ttfish">
-                        </div>
-                    </div>
-                    <p>TT捕魚機</p>
+                    <p>武道パンダ</p>
                 </li>
             </ul>
         </div>
-        </div>
-
+        <div class="circleBg"></div>
     </main>
     <footer>
         <div class="footerGroup">
@@ -301,19 +321,6 @@
         </div>
     </div>
     <aside>
-        <div class="download">
-            <div class="icon">
-                <i></i>
-            </div>
-            <div class="txt">
-                <p>手機下載</p>
-            </div>
-        </div>
-        <ul class="service">
-            <li><i class="phone"></i></li>
-            <li><i class="line"></i></li>
-            <li><i class="weChat"></i></li>
-        </ul>
         <div class="backTop display">
             <div class="icon"></div>
         </div>

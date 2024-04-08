@@ -40,11 +40,11 @@ $optionTxt_1: #000000;
 $selectTxt_1: #daaf6d;
 
 //swiper
-$swiperBullet_1: #e6c497;
+$swiperBullet_1: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
 $swiperBullet_2: #ffffff;
 
 //game
-$gameTitle_1: #f8dfad;
+$gameTitle_1: #b8151a;
 
 //footer
 $footerBg_1: linear-gradient(to top, #dcab70 0%, #f3d3a4 100%);
@@ -69,48 +69,55 @@ $shadowColor_1: #000000;
 
 //marquee
 @mixin marquee {
-    background: #ffffff00;
-    // border-width: 40px 20px;
-    // border-style: solid;
-    // border-color: #ffffff transparent transparent transparent;
+    background: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #daaf6d;
+    border-radius: 20px;
     margin: 20px auto;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
+    z-index: 5;
 
-    &::before {
-        content:"";
-        width: 1300px;
-        height: 50px;
-        background: transparent;
-        border-width: 40px 25px 40px 25px;
-        border-style: solid;
-        border-color: #dddddd transparent transparent transparent;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .trapezoid {
-        position: absolute;
-        top: 0;
-        left: 38px;
-        height: 100%;
-        width: 50px;
-        background: #dddddd;
-        transform: skewX(32deg);
-        z-index: 1;
+    // &::before {
+    //     content:"";
+    //     width: 1300px;
+    //     height: 50px;
+    //     background: transparent;
+    //     border-width: 40px 25px 40px 25px;
+    //     border-style: solid;
+    //     border-color: #dddddd transparent transparent transparent;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    // }
+    // .trapezoid {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 38px;
+    //     height: 100%;
+    //     width: 50px;
+    //     background: #dddddd;
+    //     transform: skewX(32deg);
+    //     z-index: 1;
+    // }
 
-    }
+    .marqueeTitle {
+        width: 146px;
+        height: 40px;
+        background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    i {
-        width: 25px;
-        height: 20px;
-        position: absolute;
-        left: 50px;
-        z-index: 2;
-        
+        p {
+            font-size: 18px;
+            color: #ffffff;
+        }
     }
 
     .marquee {
@@ -120,9 +127,9 @@ $shadowColor_1: #000000;
 
         p {
             display: inline-block;
-            font-size: 17px;
+            font-size: 18px;
             font-weight: bold;
-            color: #7d0022;
+            color: #a98f73;
             padding-left: 100%;
             white-space: nowrap;
             animation: marquee 10s linear infinite;

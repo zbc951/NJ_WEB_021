@@ -68,7 +68,6 @@ header {
                 .buttonGroup {
                     width: 100%;
                     height: auto;
-                    margin-left: 20px;
                     display: flex;
                     
                     a {
@@ -167,8 +166,8 @@ header {
                 padding-left: 0px;
 
                 select {
-                    width: 80px;
-                    height: 25px;
+                    width: 150px;
+                    height: 40px;
                     background: transparent;
                     flex-shrink: 0;
                     margin-left: 10px;
@@ -176,6 +175,9 @@ header {
                     z-index: 2;
                     color: $selectTxt_1;
                     font-size: 15px;
+                    border-radius: 20px;
+                    border: 1px solid $selectTxt_1;
+                    padding-left: 15px;
                     
                     option {
                         width: 100%;
@@ -183,7 +185,9 @@ header {
                         background: $optionBg_1;
                         color: $optionTxt_1;
                     }
+
                 } 
+
                 i {
                     width: 10px;
                     height: 10px;
@@ -191,23 +195,10 @@ header {
                     border-width: 0 2px 2px 0 ;
                     border-color: transparent $selectTxt_1 $selectTxt_1 transparent;
                     position: absolute;
-                    top: 5px;
+                    top: 12px;
                     transform: rotate(45deg);
-                    right: 0;
+                    right: 10px;
                     z-index: 2;
-                }
-                &::before {
-                    content:"";
-                    position: absolute;
-                    width: 150px;
-                    height: 40px;
-                    top: 50%;
-                    left: -8px;
-                    z-index: 1;
-                    background: transparent;
-                    transform: translateY(-50%);
-                    border: 1px solid $selectTxt_1;
-                    border-radius: 20px;
                 }
             }
         }
@@ -433,54 +424,99 @@ header {
         align-items: center;
         justify-content: space-around;
         margin: 0 auto;
-        background: $headerBg_4;
+        // background: $headerBg_4;
 
         ul {
-            width: 1523px;
-            height: auto;
+            width: 100%;
+            height: 100%;
             display: flex;
 
-            li {
+            .empty {
                 width: 100%;
-                height: auto;
-                transform: skewX(-30deg);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
+                height: 100%;
+                position: relative;
+                background: #0000005e;
 
-                &:hover,&:active,&.active {
+                &:first-child::before {
+                    right: -30px;
+                }
+                &:last-child::before {
+                    // background: #000;
+                    transform: scale(-1);
+                    left: -30px;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 52px 30px 0 0;
+                    border-color: #0000005e transparent transparent transparent;
+
+                }
+            }
+
+            ol {
+                width: 1520px;
+                height: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+                margin: 0 15px;
+                
+                li {
+                    width: 100%;
+                    height: 100%;
+                    transform: skewX(-30deg);
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    width: 100%;
-                    height: 52px;
-                    background: $navHoverBg_1;
-                    box-shadow: 0px 0px 5px $shadowColor_1;
-                    position: relative;
+                    margin-left: 3px;
+                    cursor: pointer;
+                    background: #0000005e;
 
-                    p {
-                        color: $mainColor_1;
+                    &:last-child {
+                        margin: 0 3px;
                     }
-
-                    &::after {
-                        content:"";
-                        position: absolute;
-                        bottom: 0;
-                        left: 50%;
-                        transform: translateX(-50%);
+    
+                    &:hover,&:active,&.active {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         width: 100%;
-                        height: 5px;
-                        background: $navHover_2;
+                        height: 52px;
+                        background: $navHoverBg_1;
+                        box-shadow: 0px 0px 5px $shadowColor_1;
+                        position: relative;
+    
+                        p {
+                            color: $mainColor_1;
+                        }
+    
+                        &::after {
+                            content:"";
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 100%;
+                            height: 5px;
+                            background: $navHover_2;
+                        }
                     }
-                }
-
-                p {
-                    font-size: 20px;
-                    font-weight: bold;
-                    color: $mainColor_1;
-                    text-align: center;
-                    transform: skewX(30deg);
+    
+                    p {
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: $mainColor_1;
+                        text-align: center;
+                        transform: skewX(30deg);
+                    }
                 }
             }
         }

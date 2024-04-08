@@ -2,6 +2,8 @@ footer {
     width: 100%;
     height: 215px;
     background: $footerBg_2;
+    position: relative;
+    z-index: 3;
 
     .footerGroup {
         width: 100%;
