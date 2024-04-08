@@ -64,123 +64,97 @@
     }
     //遊戲選單
     .gameGroup {
-        width: 1400px;
+        width: 1500px;
         height: auto;
         margin: 45px auto;
         position: relative;
         z-index: 5;
         display: flex;
 
+        .typeGroup {
+            width: auto;
+            height: auto;
+
+            .circle {
+                width: 175px;
+                height: 175px;
+                border-radius: 50%;
+                background: linear-gradient(to top, #ededed 0%, #ffffff 100%);
+                border: 1px solid #9b0707;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+
+                .typeItem {
+                    width: 55px;
+                    height: 55px;
+                }
+
+                p {
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: #9b0707;
+                    margin-top: 20px;
+                }
+            }
+        }
+
         ul {
             width: 100%;
             height: auto;
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 80px 0;
-            justify-content: center;
-            align-items: center;
+            // display: grid;
+            // grid-template-columns: repeat(4,1fr);
+            // gap: 10px 0;
+            // justify-content: center;
+            // align-items: center;
 
             &.leftGame {
-                grid-template-columns: repeat(1,1fr);
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
             }
 
             &.rightGame {
+                display: grid;
                 grid-template-columns: repeat(2,1fr);
+                justify-items: center;
             }
 
             li {
-                width: 100%;
+                width: auto;
                 height: auto;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin: 0 -24px;
 
-                .picGroup {
-                    width: 393px;
-                    height: 219px;
-                    position: relative;
-                    animation: front 2s linear infinite;
-                    cursor: pointer;
-                    
-                    &:hover,&:active,&.active {
+                .hotGroup {
+                    width: 404px;
+                    height: 221px;
+
+                    .frontPic {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
 
                         img {
-                            animation: gameHover 1s linear 0.5s infinite;
-
-                            &.bbbslot,&.cccslot {
-                                animation: slot 1.5s linear 0.5s infinite;
-                                transform-origin: bottom right;
-
-                                @keyframes slot {
-                                    0% {
-                                        transform: scale(1);
-                                        opacity: 1;
-                                    }
-                                    25% {
-                                        transform: scale(1.05);
-                                        opacity: 0.8;
-                                    }
-                                    50% {
-                                        transform: scale(0.95);
-                                        opacity: 1;
-                                    }
-                                    75% {
-                                        transform: scale(1.05);
-                                        opacity: 0.8;
-                                    }
-                                    100% {
-                                        transform: scale(1);
-                                        opacity: 1;
-                                    }
-                                }
-                            }
-                            &.abcboard,&.abcticket {
-                                animation: abcPic 1.5s linear 0.5s infinite;
-
-                                @keyframes abcPic {
-                                    0% {
-                                        transform: scale(1);
-                                    }
-                                    25% {
-                                        transform: scale(1.05);
-                                    }
-                                    50% {
-                                        transform: scale(0.95);
-                                    }
-                                    75% {
-                                        transform: scale(1.05);
-                                    }
-                                    100% {
-                                        transform: scale(1);
-                                    }
-                                }
-                            }
-                            &.abcsport {
-                                animation: abcSport 1s linear 0.5s infinite;
-                                transform-origin: bottom left;
-
-                                @keyframes abcSport {
-                                    0% {
-                                        transform: scaleX(1);
-                                    }
-                                    25% {
-                                        transform: scaleX(1.1);
-                                    }
-                                    50% {
-                                        transform: scale(0.95);
-                                    }
-                                    75% {
-                                        transform: scale(1.05);
-                                    }
-                                    100% {
-                                        transform: scale(1);
-                                    }
-                                }
-                            }
+                            width: auto;
+                            height: auto;
+                            object-fit: contain;
+                            position: absolute;
+                            transform-origin: bottom;
+                            
                         }
                     }
+                }
+                
+                .picGroup {
+                    width: 325px;
+                    height: 220px;
+                    position: relative;
+                    cursor: pointer;
                     
                     .frontPic {
                         width: 100%;
@@ -195,45 +169,16 @@
                             transform-origin: bottom;
                             
                         }
-                        @keyframes front {
-                            0% {
-                                transform: scale(1);
-                            }
-                            50% {
-                                transform: scale(1.02);
-                            }
-                            100% {
-                                transform: scale(1);
-                            }
-                        }
-                        @keyframes gameHover {
-
-                            0% {
-                                transform: translateX(0)scaleX(1)scaleY(1);
-                            }
-                            25% {
-                                transform: translateX(-20px)scaleX(0.95)scaleY(1.02);
-                            }
-                            50% {
-                                transform: translateX(-10px)scaleX(1.02)scaleY(0.98);
-                            }
-                            75% {
-                                transform: translateX(-5px)scaleX(1.02)scaleY(0.95);
-                            }
-                            100% {
-                                transform: translateX(0)scaleX(1)scaleY(1);
-                            }
-                        }
                     }
                 }
+
                 p {
                     font-size: 18px;
                     font-weight: bold;
                     color: $gameTitle_1;
-                    margin-right: 50px;
-                    margin-top: 10px;
                 }
             }
         }
+
     }
 }
