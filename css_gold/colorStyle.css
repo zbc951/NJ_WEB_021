@@ -1581,10 +1581,6 @@ main.innerPage .center .midSide.deposit .midBottom .deposit_finished .deposit_St
   text-decoration: underline;
 }
 
-footer .top {
-  background: #c4a167;
-}
-
 footer .top .center li p {
   color: #ffffff;
   font-size: 14px;

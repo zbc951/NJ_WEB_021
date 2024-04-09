@@ -138,9 +138,204 @@ header .top .logo {
   background-size: contain;
 }
 
+.home .gameGroup .typeGroup .circle .hotIc {
+  background: url("../img/icon/hotIc.png") no-repeat center;
+  background-size: contain;
+}
+
+.home .gameGroup .typeGroup .circle .slotIc {
+  background: url("../img/icon/slotIc.png") no-repeat center;
+  background-size: contain;
+}
+
+.home .gameGroup .typeGroup .circle .liveIc {
+  background: url("../img/icon/liveIc.png") no-repeat center;
+  background-size: contain;
+}
+
+.home .gameGroup .typeGroup .circle .sportIc {
+  background: url("../img/icon/sportIc.png") no-repeat center;
+  background-size: contain;
+}
+
+.home .gameGroup .typeGroup .circle .fishIc {
+  background: url("../img/icon/fishIc.png") no-repeat center;
+  background-size: contain;
+}
+
+.home .gameGroup .typeGroup .circle .boardIc {
+  background: url("../img/icon/boardIc.png") no-repeat center;
+  background-size: contain;
+}
+
 main .eventWrap .eventTitle {
   background: url("../img/eventTitle_bg.png") no-repeat center;
   background-size: cover;
+}
+
+footer .twitter {
+  background: url("../img/icon/svg/twitter.svg") no-repeat !important;
+  background-size: contain;
+}
+
+footer .payments .bank {
+  background: url("../img/partner/footer_payments/bank.png") no-repeat center;
+}
+
+footer .payments .usdt {
+  background: url("../img/partner/footer_payments/usdt.png") no-repeat center;
+}
+
+footer .payments .vega {
+  background: url("../img/partner/footer_payments/vega.png") no-repeat center;
+}
+
+footer .payments .imove {
+  background: url("../img/partner/footer_payments/imove.png") no-repeat center;
+}
+
+footer .payments .sticpay {
+  background: url("../img/partner/footer_payments/sticpay.png") no-repeat center;
+}
+
+footer .payments .iwallet {
+  background: url("../img/partner/footer_payments/iwallet.png") no-repeat center;
+}
+
+footer .payments .tigerpay {
+  background: url("../img/partner/footer_payments/tigerpay.png") no-repeat center;
+}
+
+footer .partner .ag {
+  background: url("../img/partner/footer_partner/ag.png") no-repeat center;
+}
+
+footer .partner .sa {
+  background: url("../img/partner/footer_partner/sa.png") no-repeat center;
+}
+
+footer .partner .dg {
+  background: url("../img/partner/footer_partner/dg.png") no-repeat center;
+}
+
+footer .partner .tpg {
+  background: url("../img/partner/footer_partner/tpg.png") no-repeat center;
+}
+
+footer .partner .og {
+  background: url("../img/partner/footer_partner/og.png") no-repeat center;
+}
+
+footer .partner .sp {
+  background: url("../img/partner/footer_partner/sp.png") no-repeat center;
+}
+
+footer .partner .mg {
+  background: url("../img/partner/footer_partner/mg.png") no-repeat center;
+}
+
+footer .partner .pp {
+  background: url("../img/partner/footer_partner/pp.png") no-repeat center;
+}
+
+footer .partner .gh {
+  background: url("../img/partner/footer_partner/gh.png") no-repeat center;
+}
+
+footer .partner .elk {
+  background: url("../img/partner/footer_partner/elk.png") no-repeat center;
+}
+
+footer .partner .ftp {
+  background: url("../img/partner/footer_partner/ftp.png") no-repeat center;
+}
+
+footer .partner .pg {
+  background: url("../img/partner/footer_partner/pg.png") no-repeat center;
+}
+
+footer .partner .bng {
+  background: url("../img/partner/footer_partner/bng.png") no-repeat center;
+}
+
+footer .partner .ab {
+  background: url("../img/partner/footer_partner/ab.png") no-repeat center;
+}
+
+footer .partner .pls {
+  background: url("../img/partner/footer_partner/pls.png") no-repeat center;
+}
+
+footer .partner .rsg {
+  background: url("../img/partner/footer_partner/rsg.png") no-repeat center;
+}
+
+footer .partner .bp {
+  background: url("../img/partner/footer_partner/bp.png") no-repeat center;
+}
+
+footer .partner .redtiger {
+  background: url("../img/partner/footer_partner/redtiger.png") no-repeat center;
+}
+
+footer .partner .ifun {
+  background: url("../img/partner/footer_partner/ifun.png") no-repeat center;
+}
+
+footer .partner .redrake {
+  background: url("../img/partner/footer_partner/redrake.png") no-repeat center;
+}
+
+footer .partner .ely {
+  background: url("../img/partner/footer_partner/ely.png") no-repeat center;
+}
+
+footer .partner .atux {
+  background: url("../img/partner/footer_partner/atux.png") no-repeat center;
+}
+
+footer .partner .evoplay {
+  background: url("../img/partner/footer_partner/evoplay.png") no-repeat center;
+}
+
+footer .partner .sport {
+  background: url("../img/partner/footer_partner/sport.png") no-repeat center;
+}
+
+footer .partner .png {
+  background: url("../img/partner/footer_partner/png.png") no-repeat center;
+}
+
+footer .partner .relax {
+  background: url("../img/partner/footer_partner/relax.png") no-repeat center;
+}
+
+footer .partner .wm {
+  background: url("../img/partner/footer_partner/wm.png") no-repeat center;
+}
+
+footer .partner .ygg {
+  background: url("../img/partner/footer_partner/ygg.png") no-repeat center;
+}
+
+footer .partner .net {
+  background: url("../img/partner/footer_partner/net.png") no-repeat center;
+}
+
+footer .partner .jili {
+  background: url("../img/partner/footer_partner/jili.png") no-repeat center;
+}
+
+footer .partner .nolimit {
+  background: url("../img/partner/footer_partner/nolimit.png") no-repeat center;
+}
+
+footer .partner .evo {
+  background: url("../img/partner/footer_partner/evo.png") no-repeat center;
+}
+
+footer .partner .qs {
+  background: url("../img/partner/footer_partner/qs.png") no-repeat center;
 }
 
 .innerPage .marqueeGroup .decorationR {
@@ -851,7 +1046,7 @@ html body header .downList .listWrap .center ol li p {
 html body .home {
   width: 100%;
   height: auto;
-  padding: 80px 0 20px;
+  padding: 80px 0 0;
   position: relative;
 }
 html body .home .circleBg {
@@ -970,7 +1165,7 @@ html body .home .marqueeGroup .marquee p {
   }
 }
 html body .home .gameGroup {
-  width: 1500px;
+  width: 100%;
   height: auto;
   margin: 45px auto;
   position: relative;
@@ -978,10 +1173,15 @@ html body .home .gameGroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
 }
 html body .home .gameGroup .typeGroup {
   width: auto;
   height: auto;
+  margin: 0 48px;
 }
 html body .home .gameGroup .typeGroup .circle {
   width: 175px;
@@ -1004,10 +1204,31 @@ html body .home .gameGroup .typeGroup .circle {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem {
+html body .home .gameGroup .typeGroup .circle .typeItem.hotIc {
+  width: 52px;
+  height: 68px;
+}
+html body .home .gameGroup .typeGroup .circle .typeItem.slotIc {
   width: 55px;
   height: 55px;
+}
+html body .home .gameGroup .typeGroup .circle .typeItem.liveIc {
+  width: 56px;
+  height: 56px;
+}
+html body .home .gameGroup .typeGroup .circle .typeItem.sportIc {
+  width: 68px;
+  height: 55px;
+}
+html body .home .gameGroup .typeGroup .circle .typeItem.fishIc {
+  width: 56px;
+  height: 54px;
+}
+html body .home .gameGroup .typeGroup .circle .typeItem.boardIc {
+  width: 59px;
+  height: 59px;
 }
 html body .home .gameGroup .typeGroup .circle p {
   font-size: 22px;
@@ -1016,7 +1237,7 @@ html body .home .gameGroup .typeGroup .circle p {
   margin-top: 20px;
 }
 html body .home .gameGroup ul {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 html body .home .gameGroup ul.leftGame {
@@ -1028,6 +1249,7 @@ html body .home .gameGroup ul.leftGame {
       -ms-flex-direction: column;
           flex-direction: column;
   justify-items: center;
+  padding-right: 30px;
 }
 html body .home .gameGroup ul.rightGame {
   display: -ms-grid;
@@ -1052,6 +1274,7 @@ html body .home .gameGroup ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 10px 10px 0;
 }
 html body .home .gameGroup ul li .hotGroup {
   width: 404px;
@@ -1059,7 +1282,7 @@ html body .home .gameGroup ul li .hotGroup {
 }
 html body .home .gameGroup ul li .hotGroup .frontPic {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
 }
 html body .home .gameGroup ul li .hotGroup .frontPic img {
@@ -1078,7 +1301,7 @@ html body .home .gameGroup ul li .picGroup {
   cursor: pointer;
 }
 html body .home .gameGroup ul li .picGroup .frontPic {
-  width: 100%;
+  width: auto;
   height: 100%;
   position: absolute;
 }
@@ -1095,113 +1318,364 @@ html body .home .gameGroup ul li p {
   font-size: 18px;
   font-weight: bold;
   color: #b8151a;
+  padding-top: 5px;
 }
 html body footer {
   width: 100%;
-  height: 215px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
-  background: linear-gradient(to bottom, #dddddd 0%, #ffffff 100%);
+  height: auto;
+  background: #f9f9f9;
   position: relative;
   z-index: 3;
 }
-html body footer .footerGroup {
-  width: 100%;
-  height: auto;
+html body footer .top {
+  width: 1528px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left bottom, left top, from(#dcab70), to(#f3d3a4));
-  background: linear-gradient(to top, #dcab70 0%, #f3d3a4 100%);
-}
-html body footer .footerGroup .navGroup {
-  width: 1400px;
-  height: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-}
-html body footer .footerGroup .navGroup ul {
-  width: 1400px;
-  height: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 0 auto;
-}
-html body footer .footerGroup .navGroup ul li {
-  width: auto;
-  height: 70%;
-  -webkit-transform: skewX(-30deg);
-          transform: skewX(-30deg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 5px;
-  cursor: pointer;
+  margin: 0 auto;
+  padding-top: 45px;
 }
-html body footer .footerGroup .navGroup ul li p {
-  font-size: 16px;
-  font-weight: bold;
-  color: #373737;
-  padding: 0 22px;
-  -webkit-transform: skewX(30deg);
-          transform: skewX(30deg);
+html body footer .top .left {
+  width: 50%;
+  height: auto;
+  background: #f9f9f9;
 }
-html body footer .footerGroup .navGroup ul li:hover, html body footer .footerGroup .navGroup ul li:active, html body footer .footerGroup .navGroup ul li.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#7d0022), color-stop(50%, #97012a));
-  background: linear-gradient(to bottom, #7d0022 0%, #97012a 50% #a1002c 100%);
-}
-html body footer .footerGroup .navGroup ul li:hover p, html body footer .footerGroup .navGroup ul li:active p, html body footer .footerGroup .navGroup ul li.active p {
-  color: #ffffff;
-}
-html body footer .footerGroup .navGroup span {
-  font-size: 14px;
-  color: #68001c;
-  white-space: nowrap;
-  letter-spacing: 1px;
-}
-html body footer .footerTxt {
+html body footer .top .left .title {
   width: 100%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body footer .top .left .title p {
+  color: #a98f73;
+  font-size: 14px;
+  font-weight: bold;
+}
+html body footer .top .left .box {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+html body footer .top .left .box div {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 10px 12px;
+}
+html body footer .top .left .partner {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px;
+}
+html body footer .top .left .partner .box div {
+  height: 46px;
+}
+html body footer .top .left .partner .box div.ab {
+  width: 100px;
+}
+html body footer .top .left .partner .box div.ag {
+  width: 109px;
+}
+html body footer .top .left .partner .box div.atux, html body footer .top .left .partner .box div.ftp {
+  width: 140px;
+}
+html body footer .top .left .partner .box div.bng {
+  width: 102px;
+}
+html body footer .top .left .partner .box div.bp {
+  width: 142px;
+}
+html body footer .top .left .partner .box div.dg {
+  width: 75px;
+}
+html body footer .top .left .partner .box div.elk {
+  width: 96px;
+}
+html body footer .top .left .partner .box div.ely, html body footer .top .left .partner .box div.evo {
+  width: 137px;
+}
+html body footer .top .left .partner .box div.evoplay, html body footer .top .left .partner .box div.sp {
+  width: 124px;
+}
+html body footer .top .left .partner .box div.gh {
+  width: 58px;
+}
+html body footer .top .left .partner .box div.ifun, html body footer .top .left .partner .box div.pg {
+  width: 126px;
+}
+html body footer .top .left .partner .box div.jili {
+  width: 73px;
+}
+html body footer .top .left .partner .box div.mg {
+  width: 135px;
+}
+html body footer .top .left .partner .box div.net {
+  width: 92px;
+}
+html body footer .top .left .partner .box div.nolimit {
+  width: 121px;
+}
+html body footer .top .left .partner .box div.og {
+  width: 52px;
+}
+html body footer .top .left .partner .box div.pls {
+  width: 173px;
+}
+html body footer .top .left .partner .box div.png {
+  width: 115px;
+}
+html body footer .top .left .partner .box div.pp {
+  width: 95px;
+}
+html body footer .top .left .partner .box div.qs {
+  width: 111px;
+}
+html body footer .top .left .partner .box div.redrake {
+  width: 77px;
+}
+html body footer .top .left .partner .box div.redtiger, html body footer .top .left .partner .box div.sa {
+  width: 103px;
+}
+html body footer .top .left .partner .box div.relax {
+  width: 101px;
+}
+html body footer .top .left .partner .box div.rsg {
+  width: 70px;
+}
+html body footer .top .left .partner .box div.sport {
+  width: 97px;
+}
+html body footer .top .left .partner .box div.tpg {
+  width: 109px;
+}
+html body footer .top .left .partner .box div.wm {
+  width: 40px;
+}
+html body footer .top .left .partner .box div.ygg {
+  width: 133px;
+}
+html body footer .top .footerList {
+  width: 50%;
+  height: auto;
+  padding: 0 0 40px 40px;
+}
+html body footer .top .footerList .center {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body footer .top .footerList .center ul {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body footer .top .footerList .center ul:first-child {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+html body footer .top .footerList .center ul li {
+  width: 100%;
+  height: auto;
+  padding: 0 10px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body footer .top .footerList .center ul li .title {
+  color: #f3d197;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+html body footer .top .footerList .center ul li button {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  background: none;
+  position: relative;
+  color: #a98f73;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+html body footer .top .footerList .center ul li button:last-child {
+  margin: 0;
+}
+html body footer .top .footerList .center ul li button::before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background: #daaf6d;
+  -webkit-clip-path: polygon(50% 0, 86% 50%, 50% 100%, 14% 50%);
+          clip-path: polygon(50% 0, 86% 50%, 50% 100%, 14% 50%);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  pointer-events: none;
+}
+html body footer .top .footerList .center ul li button:hover, html body footer .top .footerList .center ul li button:active, html body footer .top .footerList .center ul li button.active {
+  color: #daaf6d;
+}
+html body footer .top .footerList .center ul li button:hover::before, html body footer .top .footerList .center ul li button:active::before, html body footer .top .footerList .center ul li button.active::before {
+  opacity: 1;
+}
+html body footer .top .footerList .buttonGroup {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+html body footer .top .footerList .buttonGroup .serviceBtn {
+  width: 201px;
+  height: 54px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: 80px;
+}
+html body footer .top .footerList .buttonGroup .serviceBtn:hover, html body footer .top .footerList .buttonGroup .serviceBtn:active, html body footer .top .footerList .buttonGroup .serviceBtn.active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
+  color: #ffffff;
+}
+html body footer .top .footerList .buttonGroup .serviceBtn:hover::before, html body footer .top .footerList .buttonGroup .serviceBtn:active::before, html body footer .top .footerList .buttonGroup .serviceBtn.active::before {
+  display: none;
+}
+html body footer .top .footerList .buttonGroup .iframe-box {
+  width: 201px;
+  height: 54px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #ffffff), color-stop(93%, rgba(0, 0, 0, 0.0549019608)));
+  background: linear-gradient(to top, #ffffff 4%, rgba(0, 0, 0, 0.0549019608) 93%);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  text-align: center;
+  border: 1px solid #9b0707;
+  border-radius: 30px;
+  margin-right: 80px;
+}
+html body footer .top .footerList .buttonGroup .iframe-box:hover, html body footer .top .footerList .buttonGroup .iframe-box:active, html body footer .top .footerList .buttonGroup .iframe-box.active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #ffffff), color-stop(93%, rgba(0, 0, 0, 0.0549019608)));
+  background: linear-gradient(to bottom, #ffffff 4%, rgba(0, 0, 0, 0.0549019608) 93%);
+  color: #ffffff;
+}
+html body footer .top .footerList .buttonGroup .iframe-box:hover::before, html body footer .top .footerList .buttonGroup .iframe-box:active::before, html body footer .top .footerList .buttonGroup .iframe-box.active::before {
+  display: none;
+}
+html body footer .top .footerList .buttonGroup .iframe-box img {
+  width: 121px;
+  height: 48px;
+  margin: auto;
+}
+html body footer .top .footerList .buttonGroup .twitter {
+  width: 57px;
+  height: 57px;
+}
+html body footer .top .footerList .buttonGroup .twitter:hover::before, html body footer .top .footerList .buttonGroup .twitter:active::before, html body footer .top .footerList .buttonGroup .twitter.active::before {
+  display: none;
+}
+html body footer .bottom {
+  width: 100%;
+  height: auto;
+  background: #b8151a;
+}
+html body footer .bottom .payments {
+  width: 1350px;
+  height: auto;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px;
+}
+html body footer .bottom .payments .title {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 50px;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-html body footer .footerTxt p {
-  font-size: 13px;
+html body footer .bottom .payments .title p {
+  color: #a98f73;
+  font-size: 14px;
   font-weight: bold;
-  color: #7d0022;
-  padding-bottom: 30px;
+}
+html body footer .bottom .payments .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0 20px;
+}
+html body footer .bottom .payments .box div {
+  height: 35px;
+  margin: 0 10px;
+}
+html body footer .bottom .payments .box div.bank {
+  width: 114px;
+}
+html body footer .bottom .payments .box div.imove {
+  width: 110px;
+}
+html body footer .bottom .payments .box div.iwallet {
+  width: 112px;
+}
+html body footer .bottom .payments .box div.sticpay {
+  width: 111px;
+}
+html body footer .bottom .payments .box div.tigerpay {
+  width: 135px;
+}
+html body footer .bottom .payments .box div.usdt {
+  width: 99px;
+}
+html body footer .bottom .payments .box div.vega {
+  width: 163px;
 }
 html body aside {
   position: fixed;

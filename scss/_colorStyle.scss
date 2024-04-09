@@ -47,9 +47,12 @@ $swiperBullet_2: #ffffff;
 $gameTitle_1: #b8151a;
 
 //footer
-$footerBg_1: linear-gradient(to top, #dcab70 0%, #f3d3a4 100%);
+$footerBg_1: #f9f9f9;
 $footerBg_2: linear-gradient(to bottom, #dddddd 0%, #ffffff 100%);
-$footerTitle_1: #373737;
+$footerBg_3: #b8151a;
+$footerTitle_1: #f3d197; 
+$footerTitle_2: #a98f73;
+$footerTitle_3: #daaf6d;
 $footerTxt_1: #7d0022;
 $footerTxt_2: #68001c;
 $foooterBgHover_1: linear-gradient(to bottom, #7d0022 0%,#97012a 50% #a1002c 100%);
@@ -166,5 +169,44 @@ $shadowColor_1: #000000;
     
     &:hover,&:active,&.active {
         background: linear-gradient(to bottom, #d43a04 0%, #f58500 100%);
+    }
+}
+
+@mixin footerBtn {
+    background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s all;
+    text-align: center;
+
+    &:hover,&:active,&.active {
+        background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
+        color: #ffffff;
+
+        &::before {
+            display: none;
+        }
+    }
+}
+
+@mixin footerBtn2 {
+    background: linear-gradient(to top, #ffffff 4%, #0000000e 93%);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s all;
+    text-align: center;
+    border: 1px solid #9b0707;
+
+    &:hover,&:active,&.active {
+        background: linear-gradient(to bottom, #ffffff 4%, #0000000e 93%);
+        color: #ffffff;
+
+        &::before {
+            display: none;
+        }
     }
 }
