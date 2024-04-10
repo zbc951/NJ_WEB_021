@@ -463,6 +463,8 @@ html body header .top .login form label input {
   position: relative;
   z-index: 2;
   padding-left: 10px;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body header .top .login form label input::-webkit-input-placeholder {
   font-size: 15px;
@@ -610,6 +612,8 @@ html body header .top .login .language select {
   border-radius: 20px;
   border: 1px solid #daaf6d;
   padding-left: 15px;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body header .top .login .language select option {
   width: 100%;
@@ -629,6 +633,17 @@ html body header .top .login .language i {
           transform: rotate(45deg);
   right: 10px;
   z-index: 2;
+}
+html body header .top .login .language::before {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: #daaf6d;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 40px;
 }
 html body header .top .afterLogin {
   width: auto;
@@ -1118,6 +1133,8 @@ html body .home .mainGroup .marqueeGroup {
   position: relative;
   overflow: hidden;
   z-index: 5;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body .home .mainGroup .marqueeGroup .marqueeTitle {
   width: 146px;
@@ -3054,6 +3071,8 @@ html body .innerPage .marqueeGroup {
   position: relative;
   overflow: hidden;
   z-index: 5;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body .innerPage .marqueeGroup .marqueeTitle {
   width: 146px;

@@ -58,6 +58,7 @@ header {
                         position: relative;
                         z-index: 2;
                         padding-left: 10px;
+                        box-shadow: inset 0px 3px 3px #e4e4e4;
                         
                         &::placeholder {
                             font-size: 15px;
@@ -178,6 +179,7 @@ header {
                     border-radius: 20px;
                     border: 1px solid $selectTxt_1;
                     padding-left: 15px;
+                    box-shadow: inset 0px 3px 3px #e4e4e4;
                     
                     option {
                         width: 100%;
@@ -199,6 +201,18 @@ header {
                     transform: rotate(45deg);
                     right: 10px;
                     z-index: 2;
+                }
+
+                &::before {
+                    content: "";
+                    width: 1px;
+                    height: 30px;
+                    background: $selectTxt_1;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 40px;
+                    
                 }
             }
         }

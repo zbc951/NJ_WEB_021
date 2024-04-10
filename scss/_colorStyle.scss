@@ -83,30 +83,7 @@ $shadowColor_1: #000000;
     position: relative;
     overflow: hidden;
     z-index: 5;
-
-    // &::before {
-    //     content:"";
-    //     width: 1300px;
-    //     height: 50px;
-    //     background: transparent;
-    //     border-width: 40px 25px 40px 25px;
-    //     border-style: solid;
-    //     border-color: #dddddd transparent transparent transparent;
-    //     position: absolute;
-    //     top: 0;
-    //     left: 50%;
-    //     transform: translateX(-50%);
-    // }
-    // .trapezoid {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 38px;
-    //     height: 100%;
-    //     width: 50px;
-    //     background: #dddddd;
-    //     transform: skewX(32deg);
-    //     z-index: 1;
-    // }
+    box-shadow: inset 0px 3px 3px #e4e4e4;
 
     .marqueeTitle {
         width: 146px;
