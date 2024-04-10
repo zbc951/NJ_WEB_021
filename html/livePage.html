@@ -16,6 +16,7 @@
     <!--header-->
     <header>
         <div class="top">
+             <div class="logo" onclick="window.location.href='../index.html'"></div>
             <!-- 登入後 -->
             <div class="afterLogin">
                 <div class="center">
@@ -133,17 +134,19 @@
             </div>
         </div>
         <div class="navGroup">
-            <div class="logo"></div>
             <ul>
-                <li class="" onclick="window.location.href='../html/innerpage.html'"><p>首頁</p></li>
-                <li class="sport" onclick="window.location.href='../html/sportPage.html'"><p>體育賽事</p></li>
-                <li class="live active" onclick="window.location.href='../html/livePage.html'"><p>真人娛樂</p></li>
-                <li class="slot" onclick="window.location.href='../html/slotPage.html'"><p>老虎機</p></li>
-                <li class="ticket" onclick="window.location.href='../html/lotteryPage.html'"><p>彩票</p></li>
-                <li class="fish" onclick="window.location.href='../html/fishPage.html'"><p>捕魚機</p></li>
-                <li class="board" onclick="window.location.href='../html/boardPage.html'"><p>棋牌遊戲</p></li>
-                <li onclick="window.location.href='../html/event.html'"><p>優惠</p></li>
-                <li onclick="window.location.href='../html/vip.html'"><p>VIP會員</p></li>
+                <li class="empty"></li>
+                <ol>
+                    <li><p>人気ゲーム</p></li>
+                    <li class="sport" onclick="window.location.href='../html/sportPage.html'"><p>スポーツ</p></li>
+                    <li class="live" onclick="window.location.href='../html/livePage.html'"><p>ライブ</p></li>
+                    <li class="slot" onclick="window.location.href='../html/slotPage.html'"><p>スロット</p></li>
+                    <li class="fish" onclick="window.location.href='../html/fishPage.html'"><p>釣りゲーム</p></li>
+                    <li class="board" onclick="window.location.href='../html/boardPage.html'"><p>テーブルゲーム</p></li>
+                    <li><p>プロモーション</p></li>
+                    <li><p>VIPメンバー</p></li>
+                </ol>
+                <li class="empty"></li>
             </ul>
         </div>
         <!-- 下拉選單 -->
@@ -293,27 +296,110 @@
     </main>
     <!-- footer -->
     <footer>
-        <div class="footerGroup">
-        <div class="footerGroup">
-            <div class="navGroup">
-                <ul>
-                    <li class="callNews_window"><p>最新公告</p></li>
-                    <li onclick="window.location.href='../html/event.html'"><p>優惠</p></li>
-                    <li onclick="window.location.href='../html/vip.html'"><p>VIP會員</p></li>
-                    <li onclick="window.location.href='../html/help.html'"><p>幫助中心</p></li>
-                    <li onclick="window.location.href='../html/help.html'"><p>關於我們</p></li> 
-                </ul>
-                <span>2021 AU8GAMING.COM</span>
+        <div class="top">
+            <!--左部-->
+            <div class="left">
+                <div class="partner">
+                    <div class="title">
+                        <p>GAME PROVIDERS</p>
+                    </div>
+                    <div class="box">
+                        <div class="ag"></div>
+                        <div class="sa"></div>
+                        <div class="dg"></div>
+                        <div class="tpg"></div>
+                        <div class="og"></div>
+                        <div class="sp"></div>
+                        <div class="pg"></div>
+                        <div class="bng"></div>
+                        <div class="ab"></div>
+                        <div class="pls"></div>
+                        <div class="rsg"></div>
+                        <div class="jili"></div>
+                        <div class="nolimit"></div>
+                        <div class="evo"></div>
+                        <div class="bp"></div>
+                        <div class="ftp"></div>
+                        <div class="redtiger"></div>
+                        <div class="ifun"></div>
+                        <div class="redrake"></div>
+                        <div class="wm"></div>
+                        <div class="ygg"></div>
+                        <div class="net"></div>
+                        <div class="mg"></div>
+                        <div class="pp"></div>
+                        <div class="gh"></div>
+                        <div class="elk"></div>
+                        <div class="png"></div>
+                        <div class="relax"></div>
+                        <div class="ely"></div>
+                        <div class="qs"></div>
+                        <div class="atux"></div>
+                        <div class="evoplay"></div>
+                        <div class="sport"></div>
+                    </div>
+                </div>
+            </div>
+            <!--右部-->
+            <div class="footerList">
+                <div class="center">
+                    <ul>
+                        <li class="news">
+                            <p class="title">最新のお知らせ</p>
+                            <button onclick="unlogin()">人気</button>
+                            <button onclick="unlogin()">ノーマル</button>
+                        </li>
+                        <li class="vip">
+                            <p class="title">VIPクラブ</p>
+                            <button onclick="unlogin()">VIPレベル</button>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="title">よくある質問</p>
+                            <button onclick="window.location.href='./html/help.html'">プロモーション</button>
+                            <button onclick="window.location.href='./html/help.html'">入出金と振替</button>
+                            <button onclick="window.location.href='./html/help.html'">入出金方法</button>
+                            <button onclick="window.location.href='./html/help.html'">登録とアカウント</button>
+                            <button onclick="window.location.href='./html/help.html'">アフィリエイト</button>
+                            <button onclick="window.location.href='./html/help.html'">お問い合わせ</button>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="title">当社について</p>
+                            <button onclick="window.location.href='./html/help.html'">当社について</button>
+                            <button onclick="window.location.href='./html/help.html'">ノーマル</button>
+                            <button onclick="window.location.href='./html/help.html'">利用規約</button>
+                            <button onclick="window.location.href='./html/help.html'">責任あるゲーミング</button>
+                            <button onclick="window.location.href='./html/help.html'">プロモーション</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="buttonGroup">
+                    <button class="serviceBtn" onclick="window.location.href='./html/help.html'">チャット</button>
+                    <button class="iframe-box">
+                        <img src="../img/icon/GC-icon.png">
+                    </button>
+                    <button class="twitter" onclick="window.location.href='//twitter.com/AU8_Japan'"></button>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="footerTxt">
-            <p>
-                致力於成為世界頂級的在線娛樂公司。因此，在處理任何事情的時候，都會修先考慮客戶的利益。客戶的最大滿意就是我們的成功。
-            </p>
-            <p>
-                提供全天候24小時的在線客服，提供專業化和人性化相結合的最佳服務。
-            </p>
+        <div class="bottom">
+            <div class="payments">
+                <div class="title">
+                    <p>SAFE PAYMENTS</p>
+                </div>
+                <div class="box">
+                    <div class="bank"></div>
+                    <div class="usdt"></div>
+                    <div class="vega"></div>
+                    <div class="imove"></div>
+                    <div class="tigerpay"></div>
+                    <div class="iwallet"></div>
+                    <div class="sticpay"></div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- 彈窗 -->
@@ -432,19 +518,6 @@
         </div>
     </div>
     <aside>
-        <div class="download">
-            <div class="icon">
-                <i></i>
-            </div>
-            <div class="txt">
-                <p>手機下載</p>
-            </div>
-        </div>
-        <ul class="service">
-            <li><i class="phone"></i></li>
-            <li><i class="line"></i></li>
-            <li><i class="weChat"></i></li>
-        </ul>
         <div class="backTop display">
             <div class="icon"></div>
         </div>

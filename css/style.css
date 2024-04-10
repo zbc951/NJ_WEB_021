@@ -129,7 +129,7 @@ header .top .logo {
 }
 
 .home .circleBg {
-  background: url("../img/circleBg2.png") no-repeat center;
+  background: url("../img/circleBg.png") no-repeat center;
   background-size: contain;
 }
 
@@ -646,7 +646,7 @@ html body header .top .afterLogin {
   z-index: 2;
 }
 html body header .top .afterLogin .center {
-  width: 1400px;
+  width: auto;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1045,15 +1045,15 @@ html body header .downList .listWrap .center ol li p {
 }
 html body .home {
   width: 100%;
-  height: auto;
+  height: 1430px;
   padding: 80px 0 0;
   position: relative;
 }
 html body .home .circleBg {
   width: 100%;
-  height: 154px;
+  height: 950px;
   position: absolute;
-  top: 590px;
+  top: 565px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1090,7 +1090,17 @@ html body .home .swiperGroup .swiper .swiper-pagination .swiper-pagination-bulle
   height: 15px;
   margin: 0 7px;
 }
-html body .home .marqueeGroup {
+html body .home .mainGroup {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 628px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 4;
+}
+html body .home .mainGroup .marqueeGroup {
   width: 935px;
   height: 40px;
   background: #ffffff;
@@ -1109,7 +1119,7 @@ html body .home .marqueeGroup {
   overflow: hidden;
   z-index: 5;
 }
-html body .home .marqueeGroup .marqueeTitle {
+html body .home .mainGroup .marqueeGroup .marqueeTitle {
   width: 146px;
   height: 40px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
@@ -1125,16 +1135,16 @@ html body .home .marqueeGroup .marqueeTitle {
       -ms-flex-align: center;
           align-items: center;
 }
-html body .home .marqueeGroup .marqueeTitle p {
+html body .home .mainGroup .marqueeGroup .marqueeTitle p {
   font-size: 18px;
   color: #ffffff;
 }
-html body .home .marqueeGroup .marquee {
+html body .home .mainGroup .marqueeGroup .marquee {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-html body .home .marqueeGroup .marquee p {
+html body .home .mainGroup .marqueeGroup .marquee p {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
@@ -1164,7 +1174,7 @@ html body .home .marqueeGroup .marquee p {
             transform: translateX(-100%);
   }
 }
-html body .home .gameGroup {
+html body .home .mainGroup .gameGroup {
   width: 100%;
   height: auto;
   margin: 45px auto;
@@ -1178,12 +1188,12 @@ html body .home .gameGroup {
           justify-content: center;
   overflow: hidden;
 }
-html body .home .gameGroup .typeGroup {
+html body .home .mainGroup .gameGroup .typeGroup {
   width: auto;
   height: auto;
   margin: 0 48px;
 }
-html body .home .gameGroup .typeGroup .circle {
+html body .home .mainGroup .gameGroup .typeGroup .circle {
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -1206,41 +1216,41 @@ html body .home .gameGroup .typeGroup .circle {
   margin-bottom: 20px;
   cursor: pointer;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.hotIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.hotIc {
   width: 52px;
   height: 68px;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.slotIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.slotIc {
   width: 55px;
   height: 55px;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.liveIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.liveIc {
   width: 56px;
   height: 56px;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.sportIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.sportIc {
   width: 68px;
   height: 55px;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.fishIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.fishIc {
   width: 56px;
   height: 54px;
 }
-html body .home .gameGroup .typeGroup .circle .typeItem.boardIc {
+html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.boardIc {
   width: 59px;
   height: 59px;
 }
-html body .home .gameGroup .typeGroup .circle p {
+html body .home .mainGroup .gameGroup .typeGroup .circle p {
   font-size: 22px;
   font-weight: bold;
   color: #9b0707;
   margin-top: 20px;
 }
-html body .home .gameGroup ul {
+html body .home .mainGroup .gameGroup ul {
   width: auto;
   height: auto;
 }
-html body .home .gameGroup ul.leftGame {
+html body .home .mainGroup .gameGroup ul.leftGame {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1251,14 +1261,14 @@ html body .home .gameGroup ul.leftGame {
   justify-items: center;
   padding-right: 30px;
 }
-html body .home .gameGroup ul.rightGame {
+html body .home .mainGroup .gameGroup ul.rightGame {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
-html body .home .gameGroup ul li {
+html body .home .mainGroup .gameGroup ul li {
   width: auto;
   height: auto;
   display: -webkit-box;
@@ -1276,16 +1286,16 @@ html body .home .gameGroup ul li {
           align-items: center;
   padding: 0 10px 10px 0;
 }
-html body .home .gameGroup ul li .hotGroup {
+html body .home .mainGroup .gameGroup ul li .hotGroup {
   width: 404px;
   height: 221px;
 }
-html body .home .gameGroup ul li .hotGroup .frontPic {
+html body .home .mainGroup .gameGroup ul li .hotGroup .frontPic {
   width: 100%;
   height: auto;
   position: absolute;
 }
-html body .home .gameGroup ul li .hotGroup .frontPic img {
+html body .home .mainGroup .gameGroup ul li .hotGroup .frontPic img {
   width: auto;
   height: auto;
   -o-object-fit: contain;
@@ -1294,18 +1304,18 @@ html body .home .gameGroup ul li .hotGroup .frontPic img {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-html body .home .gameGroup ul li .picGroup {
+html body .home .mainGroup .gameGroup ul li .picGroup {
   width: 325px;
   height: 220px;
   position: relative;
   cursor: pointer;
 }
-html body .home .gameGroup ul li .picGroup .frontPic {
+html body .home .mainGroup .gameGroup ul li .picGroup .frontPic {
   width: auto;
   height: 100%;
   position: absolute;
 }
-html body .home .gameGroup ul li .picGroup .frontPic img {
+html body .home .mainGroup .gameGroup ul li .picGroup .frontPic img {
   width: auto;
   height: auto;
   -o-object-fit: contain;
@@ -1314,7 +1324,7 @@ html body .home .gameGroup ul li .picGroup .frontPic img {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-html body .home .gameGroup ul li p {
+html body .home .mainGroup .gameGroup ul li p {
   font-size: 18px;
   font-weight: bold;
   color: #b8151a;
@@ -1349,7 +1359,7 @@ html body footer .top .left .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 15px;
+  padding-left: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1361,7 +1371,7 @@ html body footer .top .left .title p {
 html body footer .top .left .box {
   width: 100%;
   height: auto;
-  padding: 20px 0;
+  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1875,7 +1885,7 @@ html body .swiper .swiper-button-next {
 html body .eventWrap {
   width: 100%;
   height: auto;
-  padding-top: 120px;
+  padding-top: 132px;
 }
 html body .eventWrap .eventTitle {
   width: 100%;
