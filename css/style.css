@@ -139,33 +139,33 @@ header .top .logo {
 }
 
 .home .gameGroup .typeGroup .circle .hotIc {
-  background: url("../img/icon/hotIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/hotIc.png") no-repeat;
+  background-size: 100%;
 }
 
 .home .gameGroup .typeGroup .circle .slotIc {
-  background: url("../img/icon/slotIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/slotIc.png") no-repeat;
+  background-size: 100%;
 }
 
 .home .gameGroup .typeGroup .circle .liveIc {
-  background: url("../img/icon/liveIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/liveIc.png") no-repeat;
+  background-size: 100%;
 }
 
 .home .gameGroup .typeGroup .circle .sportIc {
-  background: url("../img/icon/sportIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/sportIc.png") no-repeat;
+  background-size: 100%;
 }
 
 .home .gameGroup .typeGroup .circle .fishIc {
-  background: url("../img/icon/fishIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/fishIc.png") no-repeat;
+  background-size: 100%;
 }
 
 .home .gameGroup .typeGroup .circle .boardIc {
-  background: url("../img/icon/boardIc.png") no-repeat center;
-  background-size: contain;
+  background: url("../img/icon/boardIc.png") no-repeat;
+  background-size: 100%;
 }
 
 main .eventWrap .eventTitle {
@@ -462,28 +462,28 @@ html body header .top .login form label input {
   border-radius: 20px;
   position: relative;
   z-index: 2;
-  padding-left: 10px;
+  padding-left: 15px;
   -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
           box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body header .top .login form label input::-webkit-input-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #b11319;
 }
 html body header .top .login form label input::-moz-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #b11319;
 }
 html body header .top .login form label input:-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #b11319;
 }
 html body header .top .login form label input::-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #b11319;
 }
 html body header .top .login form label input::placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #b11319;
 }
 html body header .top .login form .buttonGroup {
@@ -500,8 +500,8 @@ html body header .top .login form .buttonGroup a {
 html body header .top .login form .buttonGroup a .loginBtn {
   width: 120px;
   height: 40px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#d8a65d), to(#b57a3c));
-  background: linear-gradient(to top, #d8a65d 0%, #b57a3c 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
   margin: 0 5px;
   border: 0.5px solid #ffffff;
   border-radius: 20px;
@@ -520,8 +520,8 @@ html body header .top .login form .buttonGroup a .loginBtn p {
   font-size: 15px;
 }
 html body header .top .login form .buttonGroup a .loginBtn:hover, html body header .top .login form .buttonGroup a .loginBtn:active, html body header .top .login form .buttonGroup a .loginBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#0f7435), to(#223324));
-  background: linear-gradient(to top, #0f7435 0%, #223324 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
   border: 0.5px solid #fff6cb;
 }
 html body header .top .login form .buttonGroup a .loginBtn:hover p, html body header .top .login form .buttonGroup a .loginBtn:active p, html body header .top .login form .buttonGroup a .loginBtn.active p {
@@ -530,8 +530,8 @@ html body header .top .login form .buttonGroup a .loginBtn:hover p, html body he
 html body header .top .login form .buttonGroup a .Register {
   width: 100px;
   height: 40px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#dddddd), to(#ffffff));
-  background: linear-gradient(to top, #dddddd 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
   margin: 0 5px;
   border: 0.5px solid #7d0022;
   border-radius: 20px;
@@ -546,12 +546,12 @@ html body header .top .login form .buttonGroup a .Register {
           justify-content: center;
 }
 html body header .top .login form .buttonGroup a .Register p {
-  color: #7d0022;
+  color: #ffffff;
   font-size: 15px;
 }
 html body header .top .login form .buttonGroup a .Register:hover, html body header .top .login form .buttonGroup a .Register:active, html body header .top .login form .buttonGroup a .Register.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#d8a65d), to(#b57a3c));
-  background: linear-gradient(to top, #d8a65d 0%, #b57a3c 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
   border: 0.5px solid #fff6cb;
 }
 html body header .top .login form .buttonGroup a .Register:hover p, html body header .top .login form .buttonGroup a .Register:active p, html body header .top .login form .buttonGroup a .Register.active p {
@@ -572,10 +572,10 @@ html body header .top .login .forget {
 html body header .top .login .forget i {
   width: 15px;
   height: 15px;
-  border: 1px solid #7d0022;
+  border: 1px solid #5a6569;
   border-radius: 50%;
   font-size: 12px;
-  color: #7d0022;
+  color: #5a6569;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -589,8 +589,7 @@ html body header .top .login .forget i {
 }
 html body header .top .login .forget a {
   font-size: 17px;
-  font-weight: bold;
-  color: #7d0022;
+  color: #5a6569;
 }
 html body header .top .login .language {
   width: auto;
@@ -604,7 +603,6 @@ html body header .top .login .language select {
   background: transparent;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin-left: 10px;
   position: relative;
   z-index: 2;
   color: #daaf6d;
@@ -631,7 +629,7 @@ html body header .top .login .language i {
   top: 12px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  right: 10px;
+  right: 15px;
   z-index: 2;
 }
 html body header .top .login .language::before {
@@ -812,7 +810,7 @@ html body header .top .afterLogin .center ul .wallet .buttonGroup button {
   font-size: 15px;
   font-weight: bold;
   margin: 0 5px;
-  border-radius: 2px;
+  border-radius: 30px;
 }
 html body header .top .afterLogin .center ul .wallet .buttonGroup button:hover, html body header .top .afterLogin .center ul .wallet .buttonGroup button:active, html body header .top .afterLogin .center ul .wallet .buttonGroup button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#333333), to(#242424));
@@ -827,8 +825,8 @@ html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-ch
   border: 1px solid #ffffff;
 }
 html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child:hover, html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child:active, html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#0f7435), to(#223324));
-  background: linear-gradient(to top, #0f7435 0%, #223324 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
 }
 html body header .top .afterLogin .center ul .language {
   width: auto;
@@ -848,8 +846,8 @@ html body header .top .afterLogin .center ul .language select {
   border-radius: 2px;
 }
 html body header .top .afterLogin .center ul .language select:hover, html body header .top .afterLogin .center ul .language select:active, html body header .top .afterLogin .center ul .language select.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#d8a65d), to(#b57a3c));
-  background: linear-gradient(to top, #d8a65d 0%, #b57a3c 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
 }
 html body header .top .afterLogin .center ul .language select option {
   color: #000;
@@ -953,14 +951,13 @@ html body header .navGroup ul ol li:hover, html body header .navGroup ul ol li:a
           justify-content: center;
   width: 100%;
   height: 52px;
-  background: -webkit-gradient(linear, right top, left top, from(#7d0022), color-stop(45%, #97012a), to(#a1002c));
-  background: linear-gradient(to left, #7d0022 0%, #97012a 45%, #a1002c 100%);
+  background: #ffffff;
   -webkit-box-shadow: 0px 0px 5px #000000;
           box-shadow: 0px 0px 5px #000000;
   position: relative;
 }
 html body header .navGroup ul ol li:hover p, html body header .navGroup ul ol li:active p, html body header .navGroup ul ol li.active p {
-  color: #ffffff;
+  color: #c70036;
 }
 html body header .navGroup ul ol li:hover::after, html body header .navGroup ul ol li:active::after, html body header .navGroup ul ol li.active::after {
   content: "";
@@ -997,7 +994,7 @@ html body header .downList.display {
 html body header .downList .listWrap {
   width: 100%;
   height: 230px;
-  background: rgba(0, 0, 0, 0.4509803922);
+  background: rgba(0, 0, 0, 0.368627451);
 }
 html body header .downList .listWrap .center {
   width: 1400px;
@@ -1060,19 +1057,8 @@ html body header .downList .listWrap .center ol li p {
 }
 html body .home {
   width: 100%;
-  height: 1430px;
   padding: 80px 0 0;
   position: relative;
-}
-html body .home .circleBg {
-  width: 100%;
-  height: 950px;
-  position: absolute;
-  top: 565px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: 3;
 }
 html body .home .swiperGroup {
   width: 100%;
@@ -1105,7 +1091,11 @@ html body .home .swiperGroup .swiper .swiper-pagination .swiper-pagination-bulle
   height: 15px;
   margin: 0 7px;
 }
-html body .home .mainGroup {
+html body .home .mainBox {
+  width: 100%;
+  height: 780px;
+}
+html body .home .mainBox .mainGroup {
   width: auto;
   height: auto;
   position: absolute;
@@ -1115,11 +1105,11 @@ html body .home .mainGroup {
           transform: translateX(-50%);
   z-index: 4;
 }
-html body .home .mainGroup .marqueeGroup {
+html body .home .mainBox .mainGroup .marqueeGroup {
   width: 935px;
   height: 40px;
   background: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #daaf6d;
   border-radius: 20px;
@@ -1136,7 +1126,7 @@ html body .home .mainGroup .marqueeGroup {
   -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
           box-shadow: inset 0px 3px 3px #e4e4e4;
 }
-html body .home .mainGroup .marqueeGroup .marqueeTitle {
+html body .home .mainBox .mainGroup .marqueeGroup .marqueeTitle {
   width: 146px;
   height: 40px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
@@ -1151,17 +1141,19 @@ html body .home .mainGroup .marqueeGroup .marqueeTitle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
-html body .home .mainGroup .marqueeGroup .marqueeTitle p {
+html body .home .mainBox .mainGroup .marqueeGroup .marqueeTitle p {
   font-size: 18px;
   color: #ffffff;
 }
-html body .home .mainGroup .marqueeGroup .marquee {
+html body .home .mainBox .mainGroup .marqueeGroup .marquee {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-html body .home .mainGroup .marqueeGroup .marquee p {
+html body .home .mainBox .mainGroup .marqueeGroup .marquee p {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
@@ -1191,10 +1183,10 @@ html body .home .mainGroup .marqueeGroup .marquee p {
             transform: translateX(-100%);
   }
 }
-html body .home .mainGroup .gameGroup {
+html body .home .mainBox .mainGroup .gameGroup {
   width: 100%;
   height: auto;
-  margin: 45px auto;
+  margin: 55px auto 24px;
   position: relative;
   z-index: 5;
   display: -webkit-box;
@@ -1205,12 +1197,15 @@ html body .home .mainGroup .gameGroup {
           justify-content: center;
   overflow: hidden;
 }
-html body .home .mainGroup .gameGroup .typeGroup {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup {
   width: auto;
   height: auto;
-  margin: 0 48px;
+  margin-right: 48px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup:last-child {
+  margin: 0 0 0 48px;
+}
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle {
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -1233,41 +1228,55 @@ html body .home .mainGroup .gameGroup .typeGroup .circle {
   margin-bottom: 20px;
   cursor: pointer;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.hotIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem {
+  background-position-y: 0%;
+}
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.hotIc {
   width: 52px;
   height: 68px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.slotIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.slotIc {
   width: 55px;
   height: 55px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.liveIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.liveIc {
   width: 56px;
   height: 56px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.sportIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.sportIc {
   width: 68px;
   height: 55px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.fishIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.fishIc {
   width: 56px;
   height: 54px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle .typeItem.boardIc {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem.boardIc {
   width: 59px;
   height: 59px;
 }
-html body .home .mainGroup .gameGroup .typeGroup .circle p {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle p {
   font-size: 22px;
   font-weight: bold;
   color: #9b0707;
   margin-top: 20px;
 }
-html body .home .mainGroup .gameGroup ul {
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:hover, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:active, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle.active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
+  border: 1px solid transparent;
+}
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:hover .typeItem, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:active .typeItem, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle.active .typeItem {
+  background-position-y: 100%;
+}
+html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:hover p, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:active p, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle.active p {
+  color: #ffffff;
+}
+html body .home .mainBox .mainGroup .gameGroup ul {
   width: auto;
   height: auto;
 }
-html body .home .mainGroup .gameGroup ul.leftGame {
+html body .home .mainBox .mainGroup .gameGroup ul.leftGame {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1278,14 +1287,18 @@ html body .home .mainGroup .gameGroup ul.leftGame {
   justify-items: center;
   padding-right: 30px;
 }
-html body .home .mainGroup .gameGroup ul.rightGame {
+html body .home .mainBox .mainGroup .gameGroup ul.leftGame li {
+  padding-bottom: 10px;
+}
+html body .home .mainBox .mainGroup .gameGroup ul.rightGame {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: 1fr 10px 1fr;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  gap: 10px;
 }
-html body .home .mainGroup .gameGroup ul li {
+html body .home .mainBox .mainGroup .gameGroup ul li {
   width: auto;
   height: auto;
   display: -webkit-box;
@@ -1301,18 +1314,19 @@ html body .home .mainGroup .gameGroup ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 10px 10px 0;
+  cursor: pointer;
 }
-html body .home .mainGroup .gameGroup ul li .hotGroup {
+html body .home .mainBox .mainGroup .gameGroup ul li .hotGroup {
   width: 404px;
   height: 221px;
+  cursor: pointer;
 }
-html body .home .mainGroup .gameGroup ul li .hotGroup .frontPic {
+html body .home .mainBox .mainGroup .gameGroup ul li .hotGroup .frontPic {
   width: 100%;
   height: auto;
   position: absolute;
 }
-html body .home .mainGroup .gameGroup ul li .hotGroup .frontPic img {
+html body .home .mainBox .mainGroup .gameGroup ul li .hotGroup .frontPic img {
   width: auto;
   height: auto;
   -o-object-fit: contain;
@@ -1321,18 +1335,18 @@ html body .home .mainGroup .gameGroup ul li .hotGroup .frontPic img {
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
-html body .home .mainGroup .gameGroup ul li .picGroup {
+html body .home .mainBox .mainGroup .gameGroup ul li .picGroup {
   width: 325px;
   height: 220px;
   position: relative;
   cursor: pointer;
 }
-html body .home .mainGroup .gameGroup ul li .picGroup .frontPic {
+html body .home .mainBox .mainGroup .gameGroup ul li .picGroup .frontPic {
   width: auto;
   height: 100%;
   position: absolute;
 }
-html body .home .mainGroup .gameGroup ul li .picGroup .frontPic img {
+html body .home .mainBox .mainGroup .gameGroup ul li .picGroup .frontPic img {
   width: auto;
   height: auto;
   -o-object-fit: contain;
@@ -1340,12 +1354,93 @@ html body .home .mainGroup .gameGroup ul li .picGroup .frontPic img {
   position: absolute;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 5px #a6a6a6;
+          box-shadow: 0 0 5px #a6a6a6;
 }
-html body .home .mainGroup .gameGroup ul li p {
+html body .home .mainBox .mainGroup .gameGroup ul li p {
   font-size: 18px;
   font-weight: bold;
   color: #b8151a;
   padding-top: 5px;
+}
+html body .home .mainBox .circleBg {
+  width: 100%;
+  height: 950px;
+  position: absolute;
+  top: 565px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 3;
+}
+html body .home .marqueeGroup {
+  width: 935px;
+  height: 40px;
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #daaf6d;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
+}
+html body .home .marqueeGroup .marqueeTitle {
+  width: 146px;
+  height: 40px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+html body .home .marqueeGroup .marqueeTitle p {
+  font-size: 18px;
+  color: #ffffff;
+}
+html body .home .marqueeGroup .marquee {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+html body .home .marqueeGroup .marquee p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a98f73;
+  padding-left: 100%;
+  white-space: nowrap;
+  -webkit-animation: marquee 10s linear infinite;
+          animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
 }
 html body footer {
   width: 100%;
@@ -1353,6 +1448,7 @@ html body footer {
   background: #f9f9f9;
   position: relative;
   z-index: 3;
+  border-top: 1px solid #f3d197;
 }
 html body footer .top {
   width: 1528px;
@@ -1498,7 +1594,7 @@ html body footer .top .left .partner .box div.ygg {
 html body footer .top .footerList {
   width: 50%;
   height: auto;
-  padding: 0 0 40px 40px;
+  padding: 0 0 40px 68px;
 }
 html body footer .top .footerList .center {
   width: 100%;
@@ -1538,7 +1634,7 @@ html body footer .top .footerList .center ul li .title {
 html body footer .top .footerList .center ul li button {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   background: none;
   position: relative;
   color: #a98f73;
@@ -1572,13 +1668,16 @@ html body footer .top .footerList .center ul li button:hover, html body footer .
 html body footer .top .footerList .center ul li button:hover::before, html body footer .top .footerList .center ul li button:active::before, html body footer .top .footerList .center ul li button.active::before {
   opacity: 1;
 }
+html body footer .top .footerList .center ul li:last-child {
+  padding: 0 10px 0;
+}
 html body footer .top .footerList .buttonGroup {
   width: 100%;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 html body footer .top .footerList .buttonGroup .serviceBtn {
   width: 201px;
@@ -3051,13 +3150,13 @@ html body .registerWrap .signUpBlock .signBlock button.check {
   margin-bottom: 10px;
 }
 html body .innerPage {
-  padding: 120px 0 50px;
+  padding: 130px 0 50px;
 }
 html body .innerPage .marqueeGroup {
   width: 1400px;
   height: 40px;
   background: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: #daaf6d;
   border-radius: 20px;
@@ -3089,6 +3188,8 @@ html body .innerPage .marqueeGroup .marqueeTitle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 html body .innerPage .marqueeGroup .marqueeTitle p {
   font-size: 18px;

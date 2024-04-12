@@ -4,6 +4,7 @@ footer {
     background: $footerBg_1;
     position: relative;
     z-index: 3;
+    border-top: 1px solid #f3d197;
 
     .top {
         width: 1528px;
@@ -156,7 +157,7 @@ footer {
             width: 50%;
             height: auto;
             // background: $footerBg_2;
-            padding: 0 0 40px 40px;
+            padding: 0 0 40px 68px;
 
             .center {
                 width: 100%;
@@ -191,7 +192,7 @@ footer {
                         button {
                             width: 100%;
                             height: auto;
-                            margin-bottom: 20px;
+                            margin-bottom: 19px;
                             background: none;
                             position: relative;
                             color: $footerTitle_2;
@@ -226,6 +227,10 @@ footer {
                                 }
                             }
                         }
+
+                        &:last-child {
+                            padding: 0 10px 0;
+                        }
                     }
                 }
             }
@@ -235,7 +240,7 @@ footer {
                 height: auto;
                 display: flex;
                 // justify-content: center;
-                margin-top: 20px;
+                margin-top: 22px;
 
                 .serviceBtn {
                     width: 201px;

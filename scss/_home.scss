@@ -1,18 +1,10 @@
 .home {
     width: 100%;
-    height: 1430px;
+    // height: 1430px;
     padding: 80px 0 0;
     position: relative;
 
-    .circleBg {
-        width: 100%;
-        height: 950px;
-        position: absolute;
-        top: 565px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 3;
-    }
+
 
     //輪播
     .swiperGroup {
@@ -54,170 +46,217 @@
             }
         }
     }
+    .mainBox {
+        width: 100%;
+        height: 780px;
 
-    .mainGroup {
-        width: auto;
-        height: auto;
-        position: absolute;
-        top: 628px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 4;
-
-        //marquee
-        .marqueeGroup {
-            width: 935px;
-            height: 40px;
-            @include marquee;
-        }
-        //遊戲選單
-        .gameGroup {
-            width: 100%;
+        .mainGroup {
+            width: auto;
             height: auto;
-            margin: 45px auto;
-            position: relative;
-            z-index: 5;
-            display: flex;
-            justify-content: center;
-            overflow: hidden;
-
-            .typeGroup {
-                width: auto;
-                height: auto;
-                margin: 0 48px;
-
-                .circle {
-                    width: 175px;
-                    height: 175px;
-                    border-radius: 50%;
-                    background: linear-gradient(to top, #ededed 0%, #ffffff 100%);
-                    border: 1px solid #9b0707;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    margin-bottom: 20px;
-                    cursor: pointer;
-
-                    .typeItem {
-
-                        &.hotIc {
-                            width: 52px;
-                            height: 68px;
-                        }
-
-                        &.slotIc {
-                            width: 55px;
-                            height: 55px;
-                        }
-
-                        &.liveIc {
-                            width: 56px;
-                            height: 56px;
-                        }
-
-                        &.sportIc {
-                            width: 68px;
-                            height: 55px;
-                        }
-
-                        &.fishIc {
-                            width: 56px;
-                            height: 54px;
-                        }
-
-                        &.boardIc {
-                            width: 59px;
-                            height: 59px;
-                        }
-                    }
-
-                    p {
-                        font-size: 22px;
-                        font-weight: bold;
-                        color: #9b0707;
-                        margin-top: 20px;
-                    }
-                }
+            position: absolute;
+            top: 628px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 4;
+    
+            //marquee
+            .marqueeGroup {
+                width: 935px;
+                height: 40px;
+                @include marquee;
             }
-
-            ul {
-                width: auto;
+            //遊戲選單
+            .gameGroup {
+                width: 100%;
                 height: auto;
-
-                &.leftGame {
-                    display: flex;
-                    flex-direction: column;
-                    justify-items: center;
-                    padding-right: 30px;
-                }
-
-                &.rightGame {
-                    display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    justify-items: center;
-                }
-
-                li {
+                margin: 55px auto 24px;
+                position: relative;
+                z-index: 5;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+    
+                .typeGroup {
                     width: auto;
                     height: auto;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 0 10px 10px 0;
-
-                    .hotGroup {
-                        width: 404px;
-                        height: 221px;
-
-                        .frontPic {
-                            width: 100%;
-                            height: auto;
-                            position: absolute;
-
-                            img {
-                                width: auto;
-                                height: auto;
-                                object-fit: contain;
-                                position: absolute;
-                                transform-origin: bottom;
-                                
-                            }
-                        }
+                    margin-right: 48px;
+    
+                    &:last-child {
+                        margin: 0 0 0 48px;
                     }
-                    
-                    .picGroup {
-                        width: 325px;
-                        height: 220px;
-                        position: relative;
+    
+                    .circle {
+                        width: 175px;
+                        height: 175px;
+                        border-radius: 50%;
+                        background: linear-gradient(to top, #ededed 0%, #ffffff 100%);
+                        border: 1px solid #9b0707;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 20px;
                         cursor: pointer;
-                        
-                        .frontPic {
-                            width: auto;
-                            height: 100%;
-                            position: absolute;
-
-                            img {
-                                width: auto;
-                                height: auto;
-                                object-fit: contain;
-                                position: absolute;
-                                transform-origin: bottom;
-                                
+    
+                        .typeItem {
+                            background-position-y: 0%;
+    
+                            &.hotIc {
+                                width: 52px;
+                                height: 68px;
+                            }
+    
+                            &.slotIc {
+                                width: 55px;
+                                height: 55px;
+                            }
+    
+                            &.liveIc {
+                                width: 56px;
+                                height: 56px;
+                            }
+    
+                            &.sportIc {
+                                width: 68px;
+                                height: 55px;
+                            }
+    
+                            &.fishIc {
+                                width: 56px;
+                                height: 54px;
+                            }
+    
+                            &.boardIc {
+                                width: 59px;
+                                height: 59px;
                             }
                         }
-                    }
-
-                    p {
-                        font-size: 18px;
-                        font-weight: bold;
-                        color: $gameTitle_1;
-                        padding-top: 5px;
+    
+                        p {
+                            font-size: 22px;
+                            font-weight: bold;
+                            color: #9b0707;
+                            margin-top: 20px;
+                        }
+    
+                        &:hover,&:active,&.active {
+                            background: $navHoverBg_2;
+                            border: 1px solid transparent;
+    
+                            .typeItem {
+                                background-position-y: 100%;
+                            }
+                            
+                            p {
+                                color: $navHover_1;
+                            }
+                        }
                     }
                 }
+    
+                ul {
+                    width: auto;
+                    height: auto;
+    
+                    &.leftGame {
+                        display: flex;
+                        flex-direction: column;
+                        justify-items: center;
+                        padding-right: 30px;
+    
+                        li {
+                            padding-bottom: 10px;
+                        }
+                    }
+    
+                    &.rightGame {
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        justify-items: center;
+                        gap: 10px;
+                    }
+    
+                    li {
+                        width: auto;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+    
+                        .hotGroup {
+                            width: 404px;
+                            height: 221px;
+                            cursor: pointer;
+    
+                            .frontPic {
+                                width: 100%;
+                                height: auto;
+                                position: absolute;
+    
+                                img {
+                                    width: auto;
+                                    height: auto;
+                                    object-fit: contain;
+                                    position: absolute;
+                                    transform-origin: bottom;
+                                    
+                                }
+                            }
+                        }
+                        
+                        .picGroup {
+                            width: 325px;
+                            height: 220px;
+                            position: relative;
+                            cursor: pointer;
+                            
+                            .frontPic {
+                                width: auto;
+                                height: 100%;
+                                position: absolute;
+    
+                                img {
+                                    width: auto;
+                                    height: auto;
+                                    object-fit: contain;
+                                    position: absolute;
+                                    transform-origin: bottom;
+                                    border-radius: 20px;
+                                    box-shadow: 0 0 5px #a6a6a6;
+                                }
+                            }
+                        }
+    
+                        p {
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: $gameTitle_1;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+    
             }
-
         }
+    
+        .circleBg {
+            width: 100%;
+            height: 950px;
+            position: absolute;
+            top: 565px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+        }
+    }
+
+
+    //marquee
+    .marqueeGroup {
+        width: 935px;
+        height: 40px;
+        @include marquee;
     }
 }

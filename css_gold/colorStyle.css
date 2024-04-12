@@ -421,10 +421,6 @@ main .eventWrap .eventBody .eventList .eventBox ul li.btnBox button.apply:hover,
   background: linear-gradient(to bottom, #82aeeb 0%, #0282cc 50%, #9ddbec 100%);
 }
 
-main .helpWrap {
-  background: #7d0022;
-}
-
 main .helpWrap .helpBody .sideNav > ul {
   background: #ffffff;
   border-radius: 5px;
@@ -492,10 +488,6 @@ main .helpWrap .helpBody .container > div p.haveBtn {
   color: #686868;
   font-size: 20px;
   font-weight: bold;
-}
-
-main.innerPage {
-  background: #7d0022;
 }
 
 main.innerPage .center > div > div:not(.listTitle),

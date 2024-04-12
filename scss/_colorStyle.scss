@@ -7,11 +7,11 @@ $headerBg_4: #00000073;
 //nav
 $mainColor_1: #ffffff;
 $mainColor_2: #c70036;
-$forgetColor_1: #7d0022;
+$forgetColor_1: #5a6569;
 $navHover_1: #ffffff;
 $navHover_2: #e6c497;
-$navHoverBg_1: linear-gradient(to left, #7d0022 0%, #97012a 45%, #a1002c 100%);
-
+$navHoverBg_1: #ffffff;
+$navHoverBg_2: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 //login
 $inputBg_1: linear-gradient(to bottom, #7d0022 0%,#97012a 45%, #a1002c 100%);
 $inputBorder_1: #ffffff;
@@ -20,8 +20,8 @@ $placeholder_1: #b11319;
 //button
 $buttonbg_1: linear-gradient(to top, #b50000 0%,#bd0000 45%, #fa0000 100%);
 $buttonbg_2: linear-gradient(to top, #dddddd 0%, #ffffff 100%);
-$buttonbg_3: linear-gradient(to top, #0f7435 0%, #223324 100%);
-$buttonbg_4: linear-gradient(to top, #d8a65d 0%, #b57a3c 100%);
+$buttonbg_3: linear-gradient(to top, #970707 0%, #cf0505 98%);
+$buttonbg_4: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
 $buttonTxt_1: #ffffff;
 $buttonTxt_2: #7d0022;
 $borderColor_1: #fff6cb;
@@ -73,7 +73,7 @@ $shadowColor_1: #000000;
 //marquee
 @mixin marquee {
     background: #ffffff;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: #daaf6d;
     border-radius: 20px;
@@ -93,6 +93,7 @@ $shadowColor_1: #000000;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-shrink: 0;
 
         p {
             font-size: 18px;
