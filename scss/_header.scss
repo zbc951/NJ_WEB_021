@@ -392,36 +392,54 @@ header {
                         width: auto;
                         height: auto;
                         position: relative;
+                        padding-left: 0px;
         
                         select {
-                            width: 87px;
-                            height: 28px;
+                            width: 150px;
+                            height: 40px;
+                            background: transparent;
+                            flex-shrink: 0;
+                            position: relative;
+                            z-index: 2;
+                            color: $selectTxt_1;
                             font-size: 15px;
-                            font-weight: bold;
-                            padding-left: 5px;
-                            background: $buttonbg_6;
-                            color: $mainColor_1;
-                            border: 1px solid $borderColor_3;
-                            border-radius: 2px;
-        
-                            &:hover,&:active,&.active {
-                                background: $buttonbg_4;
-                            }
+                            border-radius: 20px;
+                            border: 1px solid $selectTxt_1;
+                            padding-left: 15px;
+                            box-shadow: inset 0px 3px 3px #e4e4e4;
+                            
                             option {
-                                color: #000;
+                                width: 100%;
+                                height: auto;
+                                background: $optionBg_1;
+                                color: $optionTxt_1;
                             }
-                        }
-
+        
+                        } 
+        
                         i {
-                            width: 8px;
-                            height: 8px;
-                            border-width: 2px 2px 0 0;
+                            width: 10px;
+                            height: 10px;
                             border-style: solid;
-                            border-color: #ffffff #ffffff transparent transparent;
-                            transform: rotate(135deg);
+                            border-width: 0 2px 2px 0 ;
+                            border-color: transparent $selectTxt_1 $selectTxt_1 transparent;
                             position: absolute;
-                            top: 9px;
-                            right: 8px;
+                            top: 12px;
+                            transform: rotate(45deg);
+                            right: 15px;
+                            z-index: 2;
+                        }
+        
+                        &::before {
+                            content: "";
+                            width: 1px;
+                            height: 30px;
+                            background: $selectTxt_1;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 40px;
+                            
                         }
                     }
                 }

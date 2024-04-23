@@ -832,37 +832,53 @@ html body header .top .afterLogin .center ul .language {
   width: auto;
   height: auto;
   position: relative;
+  padding-left: 0px;
 }
 html body header .top .afterLogin .center ul .language select {
-  width: 87px;
-  height: 28px;
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  color: #daaf6d;
   font-size: 15px;
-  font-weight: bold;
-  padding-left: 5px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#b50000), color-stop(45%, #bd0000), to(#fa0000));
-  background: linear-gradient(to top, #b50000 0%, #bd0000 45%, #fa0000 100%);
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-}
-html body header .top .afterLogin .center ul .language select:hover, html body header .top .afterLogin .center ul .language select:active, html body header .top .afterLogin .center ul .language select.active {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  border-radius: 20px;
+  border: 1px solid #daaf6d;
+  padding-left: 15px;
+  -webkit-box-shadow: inset 0px 3px 3px #e4e4e4;
+          box-shadow: inset 0px 3px 3px #e4e4e4;
 }
 html body header .top .afterLogin .center ul .language select option {
-  color: #000;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  color: #000000;
 }
 html body header .top .afterLogin .center ul .language i {
-  width: 8px;
-  height: 8px;
-  border-width: 2px 2px 0 0;
+  width: 10px;
+  height: 10px;
   border-style: solid;
-  border-color: #ffffff #ffffff transparent transparent;
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  border-width: 0 2px 2px 0;
+  border-color: transparent #daaf6d #daaf6d transparent;
   position: absolute;
-  top: 9px;
-  right: 8px;
+  top: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 15px;
+  z-index: 2;
+}
+html body header .top .afterLogin .center ul .language::before {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: #daaf6d;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 40px;
 }
 html body header .navGroup {
   width: 100%;
