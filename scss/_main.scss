@@ -297,47 +297,61 @@ html {
         }
         //回到頂部
         .backTop {
-            width: 50px;
-            height: 50px;
+            width: 95px;
+            height: 95px;
             background: $backTopBg_1;
             position: fixed;
             bottom: 250px;
             right: 15px;
-            transform: rotate(-45deg)translateY(0%);
+            // transform: rotate(-45deg)translateY(0%);
+            border-radius: 50%;
             display: none;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+
+            &:hover,&:active,&.active {
+                opacity: 0.8;
+            }
 
             &.display {
                 display: flex;
             }
 
             .icon {
-                width: 10px;
-                height: 10px;
-                border-width: 0 12px 15px 12px;
-                border-style: solid;
-                border-color: transparent transparent $backIc_1 transparent;
+                border: solid #ffffff;
+                border-width: 0px 2px 2px 0;
+                display: inline-block;
+                padding: 3px;
+                width: 18px;
+                height: 18px;
+                border-color: transparent #ffffff #ffffff transparent;
                 position: absolute;
-                top: 15px;
-                left: 15px;
-                transform: rotate(45deg);
+                top: 30px;
+                left: 37px;
+                transform: rotate(-135deg);
 
                 &::after {
                     content:"";
-                    width: 25px;
-                    height: 2px;
+                    border: solid black;
+                    border-width: 0px 2px 2px 0;
+                    display: inline-block;
+                    padding: 3px;
+                    width: 13px;
+                    height: 13px;
+                    border-color: transparent #ffffff #ffffff transparent;
                     position: absolute;
-                    bottom: -22px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background: $backIc_1;
+                    top: 3px;
+                    left: 3px;
                 }
 
-                &:hover,&:active,&.active {
-                    opacity: 0.8;
-                }
+            }
+
+            .top {
+                font-size: 22px;
+                color: #ffffff;
+                padding-top: 20px;
+
             }
         }
     }

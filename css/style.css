@@ -5610,15 +5610,14 @@ html aside .service li i.weChat {
   background-position-x: 50%;
 }
 html aside .backTop {
-  width: 50px;
-  height: 50px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#dddddd), to(#ffffff));
-  background: linear-gradient(to top, #dddddd 0%, #ffffff 100%);
+  width: 95px;
+  height: 95px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #cc9966), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #cc9966 4%, #f3d197 93%);
   position: fixed;
   bottom: 250px;
   right: 15px;
-  -webkit-transform: rotate(-45deg) translateY(0%);
-          transform: rotate(-45deg) translateY(0%);
+  border-radius: 50%;
   display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -5628,34 +5627,43 @@ html aside .backTop {
           justify-content: center;
   cursor: pointer;
 }
+html aside .backTop:hover, html aside .backTop:active, html aside .backTop.active {
+  opacity: 0.8;
+}
 html aside .backTop.display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 html aside .backTop .icon {
-  width: 10px;
-  height: 10px;
-  border-width: 0 12px 15px 12px;
-  border-style: solid;
-  border-color: transparent transparent #875a17 transparent;
+  border: solid #ffffff;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 18px;
+  height: 18px;
+  border-color: transparent #ffffff #ffffff transparent;
   position: absolute;
-  top: 15px;
-  left: 15px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  top: 30px;
+  left: 37px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
 html aside .backTop .icon::after {
   content: "";
-  width: 25px;
-  height: 2px;
+  border: solid black;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  width: 13px;
+  height: 13px;
+  border-color: transparent #ffffff #ffffff transparent;
   position: absolute;
-  bottom: -22px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  background: #875a17;
+  top: 3px;
+  left: 3px;
 }
-html aside .backTop .icon:hover, html aside .backTop .icon:active, html aside .backTop .icon.active {
-  opacity: 0.8;
+html aside .backTop .top {
+  font-size: 22px;
+  color: #ffffff;
+  padding-top: 20px;
 }
