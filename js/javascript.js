@@ -718,20 +718,20 @@ $(function(){
         $(".jumpWindow.quickTransfer .content form label:nth-of-type(1)")
         .find("p.platformName").text(n);
     })
-    $(".gamePage_Wrap .containerWrap.sportPage ul.btnBox li, .gamePage_Wrap .containerWrap.livePage ul.btnBox li, .gamePage_Wrap .containerWrap.lotteryPage ul.btnBox li").click(function(){
-        var n = $(this).find("p").text();
+    // $(".gamePage_Wrap .containerWrap.sportPage ul.btnBox li, .gamePage_Wrap .containerWrap.livePage ul.btnBox li, .gamePage_Wrap .containerWrap.lotteryPage ul.btnBox li").click(function(){
+    //     var n = $(this).find("p").text();
         
-        $(".jumpWindow")
-        .addClass("display");
+    //     $(".jumpWindow")
+    //     .addClass("display");
 
-        $(".filter, .jumpWindow.quickTransfer")
-        .addClass("display")
-        .siblings()
-        .removeClass("display");
+    //     $(".filter, .jumpWindow.quickTransfer")
+    //     .addClass("display")
+    //     .siblings()
+    //     .removeClass("display");
 
-        $(".jumpWindow.quickTransfer .content form label:nth-of-type(1)")
-        .find("p.platformName").text(n);
-    })
+    //     $(".jumpWindow.quickTransfer .content form label:nth-of-type(1)")
+    //     .find("p.platformName").text(n);
+    // })
     $(".gamePage_Wrap .center .gameInnerPage_Wrap .gameBox li ul li .btnBox button.enter").click(function(){
         var n = $(this).closest("li").find(".textBox p").text();
         
