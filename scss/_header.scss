@@ -96,6 +96,7 @@ header {
                             &:hover,&:active,&.active {
                                 background: $buttonbg_3;
                                 border: 0.5px solid $borderColor_1;
+                                transform: scale(0.95);
 
                                 p {
                                     color: $borderColor_1;
@@ -123,6 +124,7 @@ header {
                             &:hover,&:active,&.active {
                                 background: $buttonbg_4;
                                 border: 0.5px solid $borderColor_1;
+                                transform: scale(0.95);
 
                                 p {
                                     color: $borderColor_1;

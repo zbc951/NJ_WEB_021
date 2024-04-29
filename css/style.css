@@ -523,6 +523,8 @@ html body header .top .login form .buttonGroup a .loginBtn:hover, html body head
   background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
   background: linear-gradient(to top, #970707 0%, #cf0505 98%);
   border: 0.5px solid #fff6cb;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 html body header .top .login form .buttonGroup a .loginBtn:hover p, html body header .top .login form .buttonGroup a .loginBtn:active p, html body header .top .login form .buttonGroup a .loginBtn.active p {
   color: #fff6cb;
@@ -553,6 +555,8 @@ html body header .top .login form .buttonGroup a .Register:hover, html body head
   background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
   background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
   border: 0.5px solid #fff6cb;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 html body header .top .login form .buttonGroup a .Register:hover p, html body header .top .login form .buttonGroup a .Register:active p, html body header .top .login form .buttonGroup a .Register.active p {
   color: #fff6cb;
@@ -1243,6 +1247,10 @@ html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle {
           align-items: center;
   margin-bottom: 20px;
   cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle .typeItem {
   background-position-y: 0%;
@@ -1281,6 +1289,8 @@ html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:hover, html bo
   background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
   border: 1px solid transparent;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:hover .typeItem, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle:active .typeItem, html body .home .mainBox .mainGroup .gameGroup .typeGroup .circle.active .typeItem {
   background-position-y: 100%;
@@ -1331,6 +1341,12 @@ html body .home .mainBox .mainGroup .gameGroup ul li {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+html body .home .mainBox .mainGroup .gameGroup ul li:hover, html body .home .mainBox .mainGroup .gameGroup ul li :active, html body .home .mainBox .mainGroup .gameGroup ul li .active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 html body .home .mainBox .mainGroup .gameGroup ul li .hotGroup {
   width: 404px;
