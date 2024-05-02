@@ -808,9 +808,10 @@ html body header .top .afterLogin .center ul .wallet .buttonGroup {
 html body header .top .afterLogin .center ul .wallet .buttonGroup button {
   width: 80px;
   height: 40px;
-  background: #ffffff;
-  color: #c70036;
-  border: 1px solid #7d0022;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  color: #ffffff;
+  border: 1px solid #ffffff;
   font-size: 15px;
   font-weight: bold;
   margin: 0 5px;
